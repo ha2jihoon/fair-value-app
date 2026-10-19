@@ -1,0 +1,7 @@
+# 실행할 때마다 만들어지는 것 (state는 state 브랜치에, app/data는 Pages에만 올라감)
+state/
+app/data/
+app/engine.js
+__pycache__/
+node_modules/
+.DS_Store

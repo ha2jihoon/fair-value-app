@@ -1,0 +1,8 @@
+{
+  "rf_us": 5.09, "rf_us_asOf": "2026-10-16",
+  "erp_us": 4.2, "erp_us_asOf": "2026-10-01",
+  "rf_kr": 4.182, "rf_kr_asOf": "2026-10-16",
+  "erp_kr": 4.87, "erp_kr_asOf": "2026-01",
+  "kr_crp": 0.64,
+  "_note": "rf_us는 매일 ^TNX로 자동 갱신. 나머지는 손으로(또는 Claude 주간 작업으로) 갱신: erp_us = Damodaran 월간 내재 ERP, rf_kr = 국고채 10년, erp_kr = Damodaran 국가별 ERP(매년 1월)"
+}
