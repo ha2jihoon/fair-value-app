@@ -43,6 +43,26 @@ def _est(df, period, col):
         return None
 
 
+def _price(info):
+    for k in ("currentPrice", "regularMarketPrice", "previousClose"):
+        v = _num(info.get(k))
+        if v:
+            return v
+    return None
+
+
+def _shares(info):
+    """주식수(백만 주). 종류주가 여럿인 회사(GOOGL·GOOG, FOX·FOXA 등)는 sharesOutstanding이 그 종류만 세므로
+    시가총액 ÷ 주가와 impliedSharesOutstanding 중 큰 값을 쓴다 (기본값의 3배를 넘는 값은 오류로 보고 버림)."""
+    so = _num(info.get("sharesOutstanding"))
+    cands = [so, _num(info.get("impliedSharesOutstanding"))]
+    mc, px = _num(info.get("marketCap")), _price(info)
+    if mc and px:
+        cands.append(mc / px)
+    cands = [c for c in cands if c and c > 0 and (not so or c <= so * 3)]
+    return max(cands) / M if cands else None
+
+
 def fundamentals(ysym, today=None):
     """종목 하나의 펀더멘털. 실패하면 예외를 그대로 올린다."""
     today = today or dt.date.today().isoformat()
@@ -55,7 +75,7 @@ def fundamentals(ysym, today=None):
         "name": info.get("longName") or info.get("shortName") or ysym,
         "currency": cur, "financialCurrency": fin_cur,
         "sector": info.get("sector"), "industry": info.get("industry"),
-        "shares": _m(info.get("sharesOutstanding") or info.get("impliedSharesOutstanding")),
+        "shares": _shares(info),
         "cash": _m(info.get("totalCash")), "debt": _m(info.get("totalDebt")),
         "revenue": _m(info.get("totalRevenue")),
         "netIncome": _m(info.get("netIncomeToCommon")),
@@ -70,8 +90,11 @@ def fundamentals(ysym, today=None):
     rec["revGrowthTtm"] = rg * 100 if rg is not None else None  # 최근 분기 전년 대비
     om = _num(info.get("operatingMargins"))
     rec["opIncome"] = rec["revenue"] * om if (rec["revenue"] is not None and om is not None) else None
-    dy = _num(info.get("dividendYield"))
-    rec["divYield"] = None if dy is None else (dy * 100 if dy < 0.2 else dy)  # 버전에 따라 0.0123 또는 1.23
+    rec["marketCap"] = _m(info.get("marketCap"))
+    # 배당수익률: dividendYield는 버전에 따라 0.0123/1.23으로 섞여 나와서 배당금 ÷ 주가로 직접 계산
+    px = _price(info)
+    rate = _num(info.get("dividendRate")) or _num(info.get("trailingAnnualDividendRate"))
+    rec["divYield"] = round(rate / px * 100, 3) if rate and px else 0.0
 
     # 연간 현금흐름·손익: CapEx, 감가상각, 세율, 5년 영업이익률
     try:

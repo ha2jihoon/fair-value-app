@@ -27,18 +27,21 @@ for (const u of universe) {
   const f = fund[u.id], p = prices[u.id];
   if (!f || !p || !n(p.price)) continue;
   const price = n(p.price), shares = n(f.shares);
-  const fwdPe = n(f.forwardEps) > 0 ? price / n(f.forwardEps) : null;
+  // Forward EPS: yfinance forwardEps가 없으면(한국 종목은 대부분 없음) 다음 회계연도 컨센서스
+  const fe = n(f.forwardEps) > 0 ? n(f.forwardEps) : n(f.epsNextFY) > 0 ? n(f.epsNextFY) : null;
+  const fwdPe = fe ? price / fe : null;
   const mcap = shares ? price * shares : null;
   rows0.push({ u, f, p, price, fwdPe: fwdPe && fwdPe < 100 ? fwdPe : null, ps: mcap && n(f.revenue) > 0 ? mcap / n(f.revenue) : null });
 }
 function peers(row, key) {
+  // 같은 시장 안에서 먼저 찾음: 한국 종목을 미국 PER로 재면 '코리아 디스카운트'만큼 늘 싸 보임
   const tiers = [
     (x) => x.u.market === row.u.market && x.f.industry && x.f.industry === row.f.industry,
-    (x) => x.f.industry && x.f.industry === row.f.industry,
     (x) => x.u.market === row.u.market && x.f.sector && x.f.sector === row.f.sector,
+    (x) => x.f.industry && x.f.industry === row.f.industry,
   ];
-  const labels = ["같은 시장·업종", "같은 업종(미국·한국 합산)", "같은 시장·섹터"];
-  const need = [3, 3, 5];
+  const labels = ["같은 시장·업종", "같은 시장·섹터", "같은 업종(미국·한국 합산)"];
+  const need = [3, 5, 3];
   for (let i = 0; i < tiers.length; i++) {
     const g = rows0.filter((x) => x !== row && !x.f.excluded && tiers[i](x) && Number.isFinite(x[key]));
     if (g.length >= need[i]) return { v: r2(median(g.map((x) => x[key]))), n: g.length, label: labels[i], names: g.slice(0, 4).map((x) => x.u.id) };
@@ -68,22 +71,39 @@ for (const row of rows0) {
     peerPs: ps ? ps.v : null, sector: f.industry || f.sector || "",
     sources: [{ label: "Yahoo Finance (yfinance) 시세·재무·컨센서스", url: yurl(u.ysym), asOf: f.fundAt || today }],
   };
-  // 매출성장률: 컨센서스(다음 회계연도) → 최근 분기 전년 대비 → 과거 3년 연평균. 뒤의 둘은 −10~25%로 자름
-  const clamp = (v) => Math.max(-10, Math.min(25, v));
+  // 매출성장률: 컨센서스(다음 회계연도) → 과거 3년 연평균 → 최근 분기 전년 대비. 뒤의 둘은 −10~15%로 자름
+  // (분기 성장률은 일회성 행사·인수로 크게 튀어서 마지막에 씀)
+  const clamp = (v) => Math.max(-10, Math.min(15, v));
   let growthNote = null;
-  if (n(f.revGrowthNext) === null) {
-    const alt = n(f.revGrowthTtm) ?? n(f.revCagr3);
-    if (alt !== null) { s.revGrowthTtm = clamp(alt); growthNote = "매출 컨센서스 없음 (과거 성장률 사용)"; }
-    else growthNote = "매출 성장률 자료 없음 (0% 가정)";
+  // yfinance의 '+1y growth'는 한국 종목에서 엉뚱한 값이 섞여 나옴(오리온 239% 등) → 매출 컨센서스로 직접 계산
+  if (n(f.revNextFY) > 0 && n(f.revCurFY) > 0) s.revGrowthNext = (n(f.revNextFY) / n(f.revCurFY) - 1) * 100;
+  if (n(s.revGrowthNext) !== null && (n(s.revGrowthNext) > 100 || n(s.revGrowthNext) < -50)) {
+    growthNote = `매출 컨센서스 성장률 ${Math.round(n(s.revGrowthNext))}%는 이상치로 보고 제외`;
+    s.revGrowthNext = null;
   }
+  if (n(s.revGrowthNext) === null) {
+    const alt = n(f.revCagr3) ?? n(f.revGrowthTtm);
+    if (alt !== null) { s.revGrowthTtm = clamp(alt); growthNote = growthNote || "매출 컨센서스 없음 (과거 성장률 사용)"; }
+    else { s.revGrowthTtm = null; growthNote = "매출 성장률 자료 없음 (0% 가정)"; }
+  }
+  // 베타 하한 0.6: 한국 대형주 쏠림 등으로 0.1~0.3 같은 베타가 나오면 할인율이 비현실적으로 낮아짐
+  let betaNote = null;
+  if (n(s.beta) !== null && n(s.beta) < 0.6) { betaNote = `베타 ${r2(n(s.beta))} → 자동 선별 하한 0.6 적용`; s.beta = 0.6; }
   const captive = /Auto Manufacturers|Farm & Heavy Construction Machinery|Recreational Vehicles/.test(f.industry || "");
   const st1 = S.stage1(s);
   const doc = S.buildDoc(s, params, today);
   doc.ysym = u.ysym;
-  if (doc.relMethod === "ps" && !n(doc.fwdRevenue) && n(f.revenue)) doc.fwdRevenue = r2(n(f.revenue) * (1 + (n(f.revGrowthNext) ?? 0) / 100));
+  if (betaNote) doc.assumptions = doc.assumptions.replace("자동 발굴 초안(스킬 기본 규칙).", `자동 발굴 초안(스킬 기본 규칙). ${betaNote}.`);
+  if (doc.relMethod === "ps" && !n(doc.fwdRevenue) && n(f.revenue)) doc.fwdRevenue = r2(n(f.revenue) * (1 + (n(s.revGrowthNext) ?? n(s.revGrowthTtm) ?? 0) / 100));
   const g = S.grade(doc, today);
   if (!st1.pass) g.tier = null;
   if (growthNote) g.flags = [...(g.flags || []), growthNote];
+  {
+    const rr = FV.compute(doc), tv = rr.dcfBase ? rr.dcfBase.tvShare : null;
+    if (g.tier === "candidate" && ((tv !== null && tv > 85) || (Number.isFinite(g.gap) && g.gap < -70))) {
+      g.tier = "watch"; g.flags = [...(g.flags || []), "자동 계산 신뢰 낮음: 후보 → 관찰"];
+    }
+  }
   if (captive && n(f.debt) > 2 * (n(f.cash) ?? 0)) g.flags = [...(g.flags || []), "금융 자회사 부채 포함 가능 (DCF 과소평가)"];
   doc.screen = { ...g, pass: st1.pass, reasons: st1.reasons, notes: st1.notes, ebitEv: st1.ebitEv, fcfYield: st1.fcfYield, ndEbitda: st1.ndEbitda };
   doc.updatedBy = "pipeline";

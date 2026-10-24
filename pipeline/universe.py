@@ -1,7 +1,7 @@
 """감시 종목(유니버스) 만들기.
 
 - 미국: S&P 500 구성 종목 (위키백과 표), 금융·부동산 섹터 제외
-- 한국: 한국거래소 시가총액 상위 코스피 150 + 코스닥 30 (KRX 정보데이터시스템), 실패하면 고정 목록
+- 한국: 시가총액 상위 코스피 150 + 코스닥 30 (Yahoo 스크리너 → KRX 정보데이터시스템 순), 둘 다 실패하면 고정 목록
 - 공통: config/watchlist.txt, config/notes/*.json 종목은 항상 포함
 
 반환: [{"id", "ysym", "market", "name", "nameKo", "gics", "source"}]
@@ -77,6 +77,36 @@ def kr_top(kospi_n=150, kosdaq_n=30, trd_dd=None):
     return []
 
 
+def kr_top_yahoo(kospi_n=150, kosdaq_n=30):
+    """Yahoo 스크리너로 코스피(KSC)·코스닥(KOE) 시가총액 상위. 우선주(코드 끝자리가 0이 아님)·스팩 제외."""
+    import yfinance as yf
+    from yfinance import EquityQuery
+    out = []
+    for exch, n, suffix in (("KSC", kospi_n, ".KS"), ("KOE", kosdaq_n, ".KQ")):
+        q = EquityQuery("and", [EquityQuery("eq", ["region", "kr"]), EquityQuery("eq", ["exchange", exch])])
+        got, seen, offset = [], set(), 0
+        while len(got) < n and offset < 1000:
+            res = yf.screen(q, offset=offset, size=250, sortField="intradaymarketcap", sortAsc=False)
+            quotes = (res or {}).get("quotes") or []
+            if not quotes:
+                break
+            for qt in quotes:
+                code = str(qt.get("symbol", "")).split(".")[0].upper()
+                name = qt.get("longName") or qt.get("shortName") or code
+                if not re.fullmatch(r"[0-9A-Z]{6}", code) or not code.endswith("0") or code in seen:
+                    continue
+                if "SPAC" in name.upper() or "스팩" in name:
+                    continue
+                seen.add(code)
+                got.append({"id": code, "ysym": code + suffix, "market": "KR", "name": name,
+                            "nameKo": KR_FALLBACK.get(code), "gics": None, "source": "yahoo_kr"})
+            offset += len(quotes)
+        if len(got) < min(10, n):
+            raise RuntimeError(f"Yahoo 스크리너 {exch} 결과 {len(got)}개")
+        out += got[:n]
+    return out
+
+
 def kr_fallback():
     return [{"id": c, "ysym": c + ".KS", "market": "KR", "name": n, "nameKo": n, "gics": None, "source": "fallback"}
             for c, n in KR_FALLBACK.items()]
@@ -143,14 +173,20 @@ def build(log=print):
     except Exception as e:  # noqa: BLE001
         log(f"[universe] S&P 500 목록 실패: {e}")
         sources["sp500_error"] = str(e)[:200]
-    try:
-        kr = kr_top()
-        if not kr:
-            raise RuntimeError("KRX 응답 비어 있음")
-        add(kr, "krx")
-    except Exception as e:  # noqa: BLE001
-        log(f"[universe] KRX 목록 실패, 고정 목록 사용: {e}")
-        sources["krx_error"] = str(e)[:200]
+    kr_ok = False
+    for label, fn in (("yahoo_kr", kr_top_yahoo), ("krx", kr_top)):
+        try:
+            kr = fn()
+            if not kr:
+                raise RuntimeError("응답 비어 있음")
+            add(kr, label)
+            kr_ok = True
+            break
+        except Exception as e:  # noqa: BLE001
+            log(f"[universe] 한국 목록({label}) 실패: {e}")
+            sources[f"{label}_error"] = str(e)[:200]
+    if not kr_ok:
+        log("[universe] 한국은 고정 목록 사용")
         add(kr_fallback(), "kr_fallback")
     # 고정 목록의 한글 이름 보강
     for it in out:
