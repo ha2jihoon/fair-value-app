@@ -53,13 +53,13 @@ def _price(info):
 
 def _shares(info):
     """주식수(백만 주). 종류주가 여럿인 회사(GOOGL·GOOG, FOX·FOXA 등)는 sharesOutstanding이 그 종류만 세므로
-    시가총액 ÷ 주가와 impliedSharesOutstanding 중 큰 값을 쓴다 (기본값의 3배를 넘는 값은 오류로 보고 버림)."""
+    시가총액 ÷ 주가와 impliedSharesOutstanding 중 큰 값을 쓴다 (기본값의 4배를 넘는 값은 오류로 보고 버림)."""
     so = _num(info.get("sharesOutstanding"))
     cands = [so, _num(info.get("impliedSharesOutstanding"))]
     mc, px = _num(info.get("marketCap")), _price(info)
     if mc and px:
         cands.append(mc / px)
-    cands = [c for c in cands if c and c > 0 and (not so or c <= so * 3)]
+    cands = [c for c in cands if c and c > 0 and (not so or c <= so * 4)]
     return max(cands) / M if cands else None
 
 
