@@ -59,7 +59,6 @@ def _krx(bld, extra):
 def kr_top(kospi_n=150, kosdaq_n=30, trd_dd=None):
     """KRX 전종목 시세(시가총액 포함)에서 시장별 상위 종목."""
     import datetime as dt
-    out = []
     day = trd_dd or dt.date.today()
     for back in range(7):  # 휴장일이면 하루씩 앞으로
         d = (day - dt.timedelta(days=back)).strftime("%Y%m%d")
@@ -188,10 +187,14 @@ def build(log=print):
     if not kr_ok:
         log("[universe] 한국은 고정 목록 사용")
         add(kr_fallback(), "kr_fallback")
-    # 고정 목록의 한글 이름 보강
+    # 한글 종목명: KIND 상장법인 목록 → 고정 목록(kr_names.py) → 없으면 영어 이름 그대로
+    import kr_names
+    names = {**KR_FALLBACK, **kr_names.lookup(log)}
     for it in out:
-        if it["market"] == "KR" and not it.get("nameKo") and it["id"] in KR_FALLBACK:
-            it["nameKo"] = KR_FALLBACK[it["id"]]
+        if it["market"] == "KR" and not it.get("nameKo") and it["id"] in names:
+            it["nameKo"] = names[it["id"]]
+    kr = [it for it in out if it["market"] == "KR"]
+    sources["kr_named"] = f"{sum(1 for it in kr if it.get('nameKo'))}/{len(kr)}"
     return out, sources
 
 
