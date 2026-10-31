@@ -1,0 +1,5267 @@
+[
+{
+"gics": null,
+"id": "007070",
+"market": "KR",
+"name": "GS리테일",
+"nameKo": "GS리테일",
+"source": "note",
+"ysym": "007070.KS"
+},
+{
+"gics": null,
+"id": "453450",
+"market": "KR",
+"name": "그리드위즈",
+"nameKo": "그리드위즈",
+"source": "note",
+"ysym": "453450.KQ"
+},
+{
+"gics": null,
+"id": "AAPL",
+"market": "US",
+"name": "Apple",
+"nameKo": null,
+"source": "note",
+"ysym": "AAPL"
+},
+{
+"gics": null,
+"id": "CPNG",
+"market": "US",
+"name": "Coupang",
+"nameKo": null,
+"source": "note",
+"ysym": "CPNG"
+},
+{
+"gics": null,
+"id": "NKE",
+"market": "US",
+"name": "Nike",
+"nameKo": null,
+"source": "note",
+"ysym": "NKE"
+},
+{
+"gics": null,
+"id": "TSLA",
+"market": "US",
+"name": "Tesla",
+"nameKo": null,
+"source": "note",
+"ysym": "TSLA"
+},
+{
+"gics": null,
+"id": "AVAV",
+"market": "US",
+"name": "AVAV",
+"nameKo": null,
+"source": "watchlist",
+"ysym": "AVAV"
+},
+{
+"gics": null,
+"id": "KTOS",
+"market": "US",
+"name": "KTOS",
+"nameKo": null,
+"source": "watchlist",
+"ysym": "KTOS"
+},
+{
+"gics": null,
+"id": "RCAT",
+"market": "US",
+"name": "RCAT",
+"nameKo": null,
+"source": "watchlist",
+"ysym": "RCAT"
+},
+{
+"gics": null,
+"id": "ONDS",
+"market": "US",
+"name": "ONDS",
+"nameKo": null,
+"source": "watchlist",
+"ysym": "ONDS"
+},
+{
+"gics": null,
+"id": "UMAC",
+"market": "US",
+"name": "UMAC",
+"nameKo": null,
+"source": "watchlist",
+"ysym": "UMAC"
+},
+{
+"gics": "Industrials",
+"id": "MMM",
+"market": "US",
+"name": "3M",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MMM"
+},
+{
+"gics": "Industrials",
+"id": "AOS",
+"market": "US",
+"name": "A. O. Smith",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AOS"
+},
+{
+"gics": "Health Care",
+"id": "ABT",
+"market": "US",
+"name": "Abbott Laboratories",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ABT"
+},
+{
+"gics": "Health Care",
+"id": "ABBV",
+"market": "US",
+"name": "AbbVie",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ABBV"
+},
+{
+"gics": "Information Technology",
+"id": "ACN",
+"market": "US",
+"name": "Accenture",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ACN"
+},
+{
+"gics": "Information Technology",
+"id": "ADBE",
+"market": "US",
+"name": "Adobe Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ADBE"
+},
+{
+"gics": "Information Technology",
+"id": "AMD",
+"market": "US",
+"name": "Advanced Micro Devices",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AMD"
+},
+{
+"gics": "Utilities",
+"id": "AES",
+"market": "US",
+"name": "AES Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AES"
+},
+{
+"gics": "Health Care",
+"id": "A",
+"market": "US",
+"name": "Agilent Technologies",
+"nameKo": null,
+"source": "sp500",
+"ysym": "A"
+},
+{
+"gics": "Materials",
+"id": "APD",
+"market": "US",
+"name": "Air Products",
+"nameKo": null,
+"source": "sp500",
+"ysym": "APD"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "ABNB",
+"market": "US",
+"name": "Airbnb",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ABNB"
+},
+{
+"gics": "Information Technology",
+"id": "AKAM",
+"market": "US",
+"name": "Akamai Technologies",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AKAM"
+},
+{
+"gics": "Materials",
+"id": "ALB",
+"market": "US",
+"name": "Albemarle Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ALB"
+},
+{
+"gics": "Health Care",
+"id": "ALGN",
+"market": "US",
+"name": "Align Technology",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ALGN"
+},
+{
+"gics": "Industrials",
+"id": "ALLE",
+"market": "US",
+"name": "Allegion",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ALLE"
+},
+{
+"gics": "Utilities",
+"id": "LNT",
+"market": "US",
+"name": "Alliant Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LNT"
+},
+{
+"gics": "Communication Services",
+"id": "GOOGL",
+"market": "US",
+"name": "Alphabet Inc. (Class A)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GOOGL"
+},
+{
+"gics": "Communication Services",
+"id": "GOOG",
+"market": "US",
+"name": "Alphabet Inc. (Class C)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GOOG"
+},
+{
+"gics": "Consumer Staples",
+"id": "MO",
+"market": "US",
+"name": "Altria",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MO"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "AMZN",
+"market": "US",
+"name": "Amazon",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AMZN"
+},
+{
+"gics": "Materials",
+"id": "AMCR",
+"market": "US",
+"name": "Amcor",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AMCR"
+},
+{
+"gics": "Utilities",
+"id": "AEE",
+"market": "US",
+"name": "Ameren",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AEE"
+},
+{
+"gics": "Utilities",
+"id": "AEP",
+"market": "US",
+"name": "American Electric Power",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AEP"
+},
+{
+"gics": "Utilities",
+"id": "AWK",
+"market": "US",
+"name": "American Water Works",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AWK"
+},
+{
+"gics": "Industrials",
+"id": "AME",
+"market": "US",
+"name": "Ametek",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AME"
+},
+{
+"gics": "Health Care",
+"id": "AMGN",
+"market": "US",
+"name": "Amgen",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AMGN"
+},
+{
+"gics": "Information Technology",
+"id": "APH",
+"market": "US",
+"name": "Amphenol",
+"nameKo": null,
+"source": "sp500",
+"ysym": "APH"
+},
+{
+"gics": "Information Technology",
+"id": "ADI",
+"market": "US",
+"name": "Analog Devices",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ADI"
+},
+{
+"gics": "Energy",
+"id": "APA",
+"market": "US",
+"name": "APA Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "APA"
+},
+{
+"gics": "Information Technology",
+"id": "AMAT",
+"market": "US",
+"name": "Applied Materials",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AMAT"
+},
+{
+"gics": "Communication Services",
+"id": "APP",
+"market": "US",
+"name": "AppLovin",
+"nameKo": null,
+"source": "sp500",
+"ysym": "APP"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "APTV",
+"market": "US",
+"name": "Aptiv",
+"nameKo": null,
+"source": "sp500",
+"ysym": "APTV"
+},
+{
+"gics": "Consumer Staples",
+"id": "ADM",
+"market": "US",
+"name": "Archer Daniels Midland",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ADM"
+},
+{
+"gics": "Information Technology",
+"id": "ANET",
+"market": "US",
+"name": "Arista Networks",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ANET"
+},
+{
+"gics": "Communication Services",
+"id": "T",
+"market": "US",
+"name": "AT&T",
+"nameKo": null,
+"source": "sp500",
+"ysym": "T"
+},
+{
+"gics": "Utilities",
+"id": "ATO",
+"market": "US",
+"name": "Atmos Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ATO"
+},
+{
+"gics": "Information Technology",
+"id": "ADSK",
+"market": "US",
+"name": "Autodesk",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ADSK"
+},
+{
+"gics": "Industrials",
+"id": "ADP",
+"market": "US",
+"name": "Automatic Data Processing",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ADP"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "AZO",
+"market": "US",
+"name": "AutoZone",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AZO"
+},
+{
+"gics": "Materials",
+"id": "AVY",
+"market": "US",
+"name": "Avery Dennison",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AVY"
+},
+{
+"gics": "Industrials",
+"id": "AXON",
+"market": "US",
+"name": "Axon Enterprise",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AXON"
+},
+{
+"gics": "Energy",
+"id": "BKR",
+"market": "US",
+"name": "Baker Hughes",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BKR"
+},
+{
+"gics": "Materials",
+"id": "BALL",
+"market": "US",
+"name": "Ball Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BALL"
+},
+{
+"gics": "Health Care",
+"id": "BAX",
+"market": "US",
+"name": "Baxter International",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BAX"
+},
+{
+"gics": "Health Care",
+"id": "BDX",
+"market": "US",
+"name": "Becton Dickinson",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BDX"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "BBY",
+"market": "US",
+"name": "Best Buy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BBY"
+},
+{
+"gics": "Health Care",
+"id": "TECH",
+"market": "US",
+"name": "Bio-Techne",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TECH"
+},
+{
+"gics": "Health Care",
+"id": "BIIB",
+"market": "US",
+"name": "Biogen",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BIIB"
+},
+{
+"gics": "Industrials",
+"id": "BE",
+"market": "US",
+"name": "Bloom Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BE"
+},
+{
+"gics": "Industrials",
+"id": "BA",
+"market": "US",
+"name": "Boeing",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BA"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "BKNG",
+"market": "US",
+"name": "Booking Holdings",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BKNG"
+},
+{
+"gics": "Health Care",
+"id": "BSX",
+"market": "US",
+"name": "Boston Scientific",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BSX"
+},
+{
+"gics": "Health Care",
+"id": "BMY",
+"market": "US",
+"name": "Bristol Myers Squibb",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BMY"
+},
+{
+"gics": "Information Technology",
+"id": "AVGO",
+"market": "US",
+"name": "Broadcom",
+"nameKo": null,
+"source": "sp500",
+"ysym": "AVGO"
+},
+{
+"gics": "Industrials",
+"id": "BR",
+"market": "US",
+"name": "Broadridge Financial Solutions",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BR"
+},
+{
+"gics": "Consumer Staples",
+"id": "BF-B",
+"market": "US",
+"name": "Brown–Forman",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BF-B"
+},
+{
+"gics": "Consumer Staples",
+"id": "BG",
+"market": "US",
+"name": "Bunge Global",
+"nameKo": null,
+"source": "sp500",
+"ysym": "BG"
+},
+{
+"gics": "Industrials",
+"id": "CHRW",
+"market": "US",
+"name": "C.H. Robinson",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CHRW"
+},
+{
+"gics": "Information Technology",
+"id": "CDNS",
+"market": "US",
+"name": "Cadence Design Systems",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CDNS"
+},
+{
+"gics": "Health Care",
+"id": "CAH",
+"market": "US",
+"name": "Cardinal Health",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CAH"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "CCL",
+"market": "US",
+"name": "Carnival Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CCL"
+},
+{
+"gics": "Industrials",
+"id": "CARR",
+"market": "US",
+"name": "Carrier Global",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CARR"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "CVNA",
+"market": "US",
+"name": "Carvana",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CVNA"
+},
+{
+"gics": "Consumer Staples",
+"id": "CASY",
+"market": "US",
+"name": "Casey's",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CASY"
+},
+{
+"gics": "Industrials",
+"id": "CAT",
+"market": "US",
+"name": "Caterpillar Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CAT"
+},
+{
+"gics": "Information Technology",
+"id": "CDW",
+"market": "US",
+"name": "CDW Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CDW"
+},
+{
+"gics": "Health Care",
+"id": "COR",
+"market": "US",
+"name": "Cencora",
+"nameKo": null,
+"source": "sp500",
+"ysym": "COR"
+},
+{
+"gics": "Health Care",
+"id": "CNC",
+"market": "US",
+"name": "Centene Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CNC"
+},
+{
+"gics": "Utilities",
+"id": "CNP",
+"market": "US",
+"name": "CenterPoint Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CNP"
+},
+{
+"gics": "Materials",
+"id": "CF",
+"market": "US",
+"name": "CF Industries",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CF"
+},
+{
+"gics": "Health Care",
+"id": "CRL",
+"market": "US",
+"name": "Charles River Laboratories",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CRL"
+},
+{
+"gics": "Communication Services",
+"id": "CHTR",
+"market": "US",
+"name": "Charter Communications",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CHTR"
+},
+{
+"gics": "Energy",
+"id": "CVX",
+"market": "US",
+"name": "Chevron Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CVX"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "CMG",
+"market": "US",
+"name": "Chipotle Mexican Grill",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CMG"
+},
+{
+"gics": "Consumer Staples",
+"id": "CHD",
+"market": "US",
+"name": "Church & Dwight",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CHD"
+},
+{
+"gics": "Information Technology",
+"id": "CIEN",
+"market": "US",
+"name": "Ciena",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CIEN"
+},
+{
+"gics": "Health Care",
+"id": "CI",
+"market": "US",
+"name": "Cigna",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CI"
+},
+{
+"gics": "Industrials",
+"id": "CTAS",
+"market": "US",
+"name": "Cintas",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CTAS"
+},
+{
+"gics": "Information Technology",
+"id": "CSCO",
+"market": "US",
+"name": "Cisco",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CSCO"
+},
+{
+"gics": "Consumer Staples",
+"id": "CLX",
+"market": "US",
+"name": "Clorox",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CLX"
+},
+{
+"gics": "Utilities",
+"id": "CMS",
+"market": "US",
+"name": "CMS Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CMS"
+},
+{
+"gics": "Consumer Staples",
+"id": "KO",
+"market": "US",
+"name": "Coca-Cola Company (The)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "KO"
+},
+{
+"gics": "Information Technology",
+"id": "CTSH",
+"market": "US",
+"name": "Cognizant",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CTSH"
+},
+{
+"gics": "Information Technology",
+"id": "COHR",
+"market": "US",
+"name": "Coherent Corp.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "COHR"
+},
+{
+"gics": "Consumer Staples",
+"id": "CL",
+"market": "US",
+"name": "Colgate-Palmolive",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CL"
+},
+{
+"gics": "Communication Services",
+"id": "CMCSA",
+"market": "US",
+"name": "Comcast",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CMCSA"
+},
+{
+"gics": "Industrials",
+"id": "FIX",
+"market": "US",
+"name": "Comfort Systems USA",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FIX"
+},
+{
+"gics": "Energy",
+"id": "COP",
+"market": "US",
+"name": "ConocoPhillips",
+"nameKo": null,
+"source": "sp500",
+"ysym": "COP"
+},
+{
+"gics": "Utilities",
+"id": "ED",
+"market": "US",
+"name": "Consolidated Edison",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ED"
+},
+{
+"gics": "Consumer Staples",
+"id": "STZ",
+"market": "US",
+"name": "Constellation Brands",
+"nameKo": null,
+"source": "sp500",
+"ysym": "STZ"
+},
+{
+"gics": "Utilities",
+"id": "CEG",
+"market": "US",
+"name": "Constellation Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CEG"
+},
+{
+"gics": "Health Care",
+"id": "COO",
+"market": "US",
+"name": "Cooper Companies (The)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "COO"
+},
+{
+"gics": "Industrials",
+"id": "CPRT",
+"market": "US",
+"name": "Copart",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CPRT"
+},
+{
+"gics": "Information Technology",
+"id": "GLW",
+"market": "US",
+"name": "Corning Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GLW"
+},
+{
+"gics": "Consumer Staples",
+"id": "COST",
+"market": "US",
+"name": "Costco",
+"nameKo": null,
+"source": "sp500",
+"ysym": "COST"
+},
+{
+"gics": "Materials",
+"id": "CRH",
+"market": "US",
+"name": "CRH plc",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CRH"
+},
+{
+"gics": "Information Technology",
+"id": "CRWD",
+"market": "US",
+"name": "CrowdStrike",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CRWD"
+},
+{
+"gics": "Industrials",
+"id": "CSX",
+"market": "US",
+"name": "CSX Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CSX"
+},
+{
+"gics": "Industrials",
+"id": "CMI",
+"market": "US",
+"name": "Cummins",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CMI"
+},
+{
+"gics": "Health Care",
+"id": "CVS",
+"market": "US",
+"name": "CVS Health",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CVS"
+},
+{
+"gics": "Health Care",
+"id": "DHR",
+"market": "US",
+"name": "Danaher Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DHR"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "DRI",
+"market": "US",
+"name": "Darden Restaurants",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DRI"
+},
+{
+"gics": "Information Technology",
+"id": "DDOG",
+"market": "US",
+"name": "Datadog",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DDOG"
+},
+{
+"gics": "Health Care",
+"id": "DVA",
+"market": "US",
+"name": "DaVita",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DVA"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "DECK",
+"market": "US",
+"name": "Deckers Brands",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DECK"
+},
+{
+"gics": "Industrials",
+"id": "DE",
+"market": "US",
+"name": "Deere & Company",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DE"
+},
+{
+"gics": "Information Technology",
+"id": "DELL",
+"market": "US",
+"name": "Dell Technologies",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DELL"
+},
+{
+"gics": "Industrials",
+"id": "DAL",
+"market": "US",
+"name": "Delta Air Lines",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DAL"
+},
+{
+"gics": "Energy",
+"id": "DVN",
+"market": "US",
+"name": "Devon Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DVN"
+},
+{
+"gics": "Health Care",
+"id": "DXCM",
+"market": "US",
+"name": "Dexcom",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DXCM"
+},
+{
+"gics": "Energy",
+"id": "FANG",
+"market": "US",
+"name": "Diamondback Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FANG"
+},
+{
+"gics": "Consumer Staples",
+"id": "DG",
+"market": "US",
+"name": "Dollar General",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DG"
+},
+{
+"gics": "Consumer Staples",
+"id": "DLTR",
+"market": "US",
+"name": "Dollar Tree",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DLTR"
+},
+{
+"gics": "Utilities",
+"id": "D",
+"market": "US",
+"name": "Dominion Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "D"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "DPZ",
+"market": "US",
+"name": "Domino's",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DPZ"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "DASH",
+"market": "US",
+"name": "DoorDash",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DASH"
+},
+{
+"gics": "Industrials",
+"id": "DOV",
+"market": "US",
+"name": "Dover Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DOV"
+},
+{
+"gics": "Materials",
+"id": "DOW",
+"market": "US",
+"name": "Dow Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DOW"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "DHI",
+"market": "US",
+"name": "D. R. Horton",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DHI"
+},
+{
+"gics": "Utilities",
+"id": "DTE",
+"market": "US",
+"name": "DTE Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DTE"
+},
+{
+"gics": "Utilities",
+"id": "DUK",
+"market": "US",
+"name": "Duke Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DUK"
+},
+{
+"gics": "Industrials",
+"id": "DD",
+"market": "US",
+"name": "DuPont",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DD"
+},
+{
+"gics": "Industrials",
+"id": "ETN",
+"market": "US",
+"name": "Eaton Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ETN"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "EBAY",
+"market": "US",
+"name": "eBay Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EBAY"
+},
+{
+"gics": "Communication Services",
+"id": "ECHO",
+"market": "US",
+"name": "EchoStar",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ECHO"
+},
+{
+"gics": "Materials",
+"id": "ECL",
+"market": "US",
+"name": "Ecolab",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ECL"
+},
+{
+"gics": "Utilities",
+"id": "EIX",
+"market": "US",
+"name": "Edison International",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EIX"
+},
+{
+"gics": "Health Care",
+"id": "EW",
+"market": "US",
+"name": "Edwards Lifesciences",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EW"
+},
+{
+"gics": "Health Care",
+"id": "ELV",
+"market": "US",
+"name": "Elevance Health",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ELV"
+},
+{
+"gics": "Industrials",
+"id": "EME",
+"market": "US",
+"name": "Emcor",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EME"
+},
+{
+"gics": "Industrials",
+"id": "EMR",
+"market": "US",
+"name": "Emerson Electric",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EMR"
+},
+{
+"gics": "Utilities",
+"id": "ETR",
+"market": "US",
+"name": "Entergy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ETR"
+},
+{
+"gics": "Energy",
+"id": "EOG",
+"market": "US",
+"name": "EOG Resources",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EOG"
+},
+{
+"gics": "Energy",
+"id": "EQT",
+"market": "US",
+"name": "EQT Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EQT"
+},
+{
+"gics": "Industrials",
+"id": "EFX",
+"market": "US",
+"name": "Equifax",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EFX"
+},
+{
+"gics": "Consumer Staples",
+"id": "EL",
+"market": "US",
+"name": "Estée Lauder Companies (The)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EL"
+},
+{
+"gics": "Utilities",
+"id": "EVRG",
+"market": "US",
+"name": "Evergy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EVRG"
+},
+{
+"gics": "Information Technology",
+"id": "P",
+"market": "US",
+"name": "Everpure",
+"nameKo": null,
+"source": "sp500",
+"ysym": "P"
+},
+{
+"gics": "Utilities",
+"id": "ES",
+"market": "US",
+"name": "Eversource Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ES"
+},
+{
+"gics": "Utilities",
+"id": "EXC",
+"market": "US",
+"name": "Exelon",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EXC"
+},
+{
+"gics": "Energy",
+"id": "EXE",
+"market": "US",
+"name": "Expand Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EXE"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "EXPE",
+"market": "US",
+"name": "Expedia Group",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EXPE"
+},
+{
+"gics": "Industrials",
+"id": "EXPD",
+"market": "US",
+"name": "Expeditors International",
+"nameKo": null,
+"source": "sp500",
+"ysym": "EXPD"
+},
+{
+"gics": "Energy",
+"id": "XOM",
+"market": "US",
+"name": "ExxonMobil",
+"nameKo": null,
+"source": "sp500",
+"ysym": "XOM"
+},
+{
+"gics": "Information Technology",
+"id": "FFIV",
+"market": "US",
+"name": "F5, Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FFIV"
+},
+{
+"gics": "Information Technology",
+"id": "FICO",
+"market": "US",
+"name": "Fair Isaac",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FICO"
+},
+{
+"gics": "Industrials",
+"id": "FAST",
+"market": "US",
+"name": "Fastenal",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FAST"
+},
+{
+"gics": "Industrials",
+"id": "FDX",
+"market": "US",
+"name": "FedEx",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FDX"
+},
+{
+"gics": "Industrials",
+"id": "FDXF",
+"market": "US",
+"name": "FedEx Freight",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FDXF"
+},
+{
+"gics": "Industrials",
+"id": "FERG",
+"market": "US",
+"name": "Ferguson Enterprises",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FERG"
+},
+{
+"gics": "Information Technology",
+"id": "FSLR",
+"market": "US",
+"name": "First Solar",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FSLR"
+},
+{
+"gics": "Utilities",
+"id": "FE",
+"market": "US",
+"name": "FirstEnergy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FE"
+},
+{
+"gics": "Information Technology",
+"id": "FLEX",
+"market": "US",
+"name": "Flex Ltd.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FLEX"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "F",
+"market": "US",
+"name": "Ford Motor Company",
+"nameKo": null,
+"source": "sp500",
+"ysym": "F"
+},
+{
+"gics": "Information Technology",
+"id": "FTNT",
+"market": "US",
+"name": "Fortinet",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FTNT"
+},
+{
+"gics": "Industrials",
+"id": "FTV",
+"market": "US",
+"name": "Fortive",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FTV"
+},
+{
+"gics": "Communication Services",
+"id": "FOXA",
+"market": "US",
+"name": "Fox Corporation (Class A)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FOXA"
+},
+{
+"gics": "Communication Services",
+"id": "FOX",
+"market": "US",
+"name": "Fox Corporation (Class B)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FOX"
+},
+{
+"gics": "Materials",
+"id": "FCX",
+"market": "US",
+"name": "Freeport-McMoRan",
+"nameKo": null,
+"source": "sp500",
+"ysym": "FCX"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "GRMN",
+"market": "US",
+"name": "Garmin",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GRMN"
+},
+{
+"gics": "Information Technology",
+"id": "IT",
+"market": "US",
+"name": "Gartner",
+"nameKo": null,
+"source": "sp500",
+"ysym": "IT"
+},
+{
+"gics": "Industrials",
+"id": "GE",
+"market": "US",
+"name": "GE Aerospace",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GE"
+},
+{
+"gics": "Health Care",
+"id": "GEHC",
+"market": "US",
+"name": "GE HealthCare",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GEHC"
+},
+{
+"gics": "Industrials",
+"id": "GEV",
+"market": "US",
+"name": "GE Vernova",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GEV"
+},
+{
+"gics": "Information Technology",
+"id": "GEN",
+"market": "US",
+"name": "Gen Digital",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GEN"
+},
+{
+"gics": "Industrials",
+"id": "GNRC",
+"market": "US",
+"name": "Generac",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GNRC"
+},
+{
+"gics": "Industrials",
+"id": "GD",
+"market": "US",
+"name": "General Dynamics",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GD"
+},
+{
+"gics": "Consumer Staples",
+"id": "GIS",
+"market": "US",
+"name": "General Mills",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GIS"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "GM",
+"market": "US",
+"name": "General Motors",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GM"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "GPC",
+"market": "US",
+"name": "Genuine Parts Company",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GPC"
+},
+{
+"gics": "Health Care",
+"id": "GILD",
+"market": "US",
+"name": "Gilead Sciences",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GILD"
+},
+{
+"gics": "Information Technology",
+"id": "GDDY",
+"market": "US",
+"name": "GoDaddy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GDDY"
+},
+{
+"gics": "Energy",
+"id": "HAL",
+"market": "US",
+"name": "Halliburton",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HAL"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "HAS",
+"market": "US",
+"name": "Hasbro",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HAS"
+},
+{
+"gics": "Health Care",
+"id": "HCA",
+"market": "US",
+"name": "HCA Healthcare",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HCA"
+},
+{
+"gics": "Health Care",
+"id": "HSIC",
+"market": "US",
+"name": "Henry Schein",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HSIC"
+},
+{
+"gics": "Consumer Staples",
+"id": "HSY",
+"market": "US",
+"name": "Hershey Company (The)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HSY"
+},
+{
+"gics": "Information Technology",
+"id": "HPE",
+"market": "US",
+"name": "Hewlett Packard Enterprise",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HPE"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "HLT",
+"market": "US",
+"name": "Hilton Worldwide",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HLT"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "HD",
+"market": "US",
+"name": "Home Depot (The)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HD"
+},
+{
+"gics": "Industrials",
+"id": "HONA",
+"market": "US",
+"name": "Honeywell Aerospace",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HONA"
+},
+{
+"gics": "Industrials",
+"id": "HON",
+"market": "US",
+"name": "Honeywell Technologies",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HON"
+},
+{
+"gics": "Consumer Staples",
+"id": "HRL",
+"market": "US",
+"name": "Hormel Foods",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HRL"
+},
+{
+"gics": "Industrials",
+"id": "HWM",
+"market": "US",
+"name": "Howmet Aerospace",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HWM"
+},
+{
+"gics": "Information Technology",
+"id": "HPQ",
+"market": "US",
+"name": "HP Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HPQ"
+},
+{
+"gics": "Industrials",
+"id": "HUBB",
+"market": "US",
+"name": "Hubbell Incorporated",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HUBB"
+},
+{
+"gics": "Health Care",
+"id": "HUM",
+"market": "US",
+"name": "Humana",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HUM"
+},
+{
+"gics": "Industrials",
+"id": "HII",
+"market": "US",
+"name": "Huntington Ingalls Industries",
+"nameKo": null,
+"source": "sp500",
+"ysym": "HII"
+},
+{
+"gics": "Information Technology",
+"id": "IBM",
+"market": "US",
+"name": "IBM",
+"nameKo": null,
+"source": "sp500",
+"ysym": "IBM"
+},
+{
+"gics": "Industrials",
+"id": "IEX",
+"market": "US",
+"name": "IDEX Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "IEX"
+},
+{
+"gics": "Health Care",
+"id": "IDXX",
+"market": "US",
+"name": "Idexx Laboratories",
+"nameKo": null,
+"source": "sp500",
+"ysym": "IDXX"
+},
+{
+"gics": "Industrials",
+"id": "ITW",
+"market": "US",
+"name": "Illinois Tool Works",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ITW"
+},
+{
+"gics": "Health Care",
+"id": "ILMN",
+"market": "US",
+"name": "Illumina, Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ILMN"
+},
+{
+"gics": "Health Care",
+"id": "INCY",
+"market": "US",
+"name": "Incyte",
+"nameKo": null,
+"source": "sp500",
+"ysym": "INCY"
+},
+{
+"gics": "Industrials",
+"id": "IR",
+"market": "US",
+"name": "Ingersoll Rand",
+"nameKo": null,
+"source": "sp500",
+"ysym": "IR"
+},
+{
+"gics": "Health Care",
+"id": "PODD",
+"market": "US",
+"name": "Insulet Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PODD"
+},
+{
+"gics": "Information Technology",
+"id": "INTC",
+"market": "US",
+"name": "Intel",
+"nameKo": null,
+"source": "sp500",
+"ysym": "INTC"
+},
+{
+"gics": "Materials",
+"id": "IFF",
+"market": "US",
+"name": "International Flavors & Fragrances",
+"nameKo": null,
+"source": "sp500",
+"ysym": "IFF"
+},
+{
+"gics": "Materials",
+"id": "IP",
+"market": "US",
+"name": "International Paper",
+"nameKo": null,
+"source": "sp500",
+"ysym": "IP"
+},
+{
+"gics": "Information Technology",
+"id": "INTU",
+"market": "US",
+"name": "Intuit",
+"nameKo": null,
+"source": "sp500",
+"ysym": "INTU"
+},
+{
+"gics": "Health Care",
+"id": "ISRG",
+"market": "US",
+"name": "Intuitive Surgical",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ISRG"
+},
+{
+"gics": "Health Care",
+"id": "IQV",
+"market": "US",
+"name": "IQVIA",
+"nameKo": null,
+"source": "sp500",
+"ysym": "IQV"
+},
+{
+"gics": "Industrials",
+"id": "JBHT",
+"market": "US",
+"name": "J.B. Hunt",
+"nameKo": null,
+"source": "sp500",
+"ysym": "JBHT"
+},
+{
+"gics": "Information Technology",
+"id": "JBL",
+"market": "US",
+"name": "Jabil",
+"nameKo": null,
+"source": "sp500",
+"ysym": "JBL"
+},
+{
+"gics": "Industrials",
+"id": "J",
+"market": "US",
+"name": "Jacobs Solutions",
+"nameKo": null,
+"source": "sp500",
+"ysym": "J"
+},
+{
+"gics": "Health Care",
+"id": "JNJ",
+"market": "US",
+"name": "Johnson & Johnson",
+"nameKo": null,
+"source": "sp500",
+"ysym": "JNJ"
+},
+{
+"gics": "Industrials",
+"id": "JCI",
+"market": "US",
+"name": "Johnson Controls",
+"nameKo": null,
+"source": "sp500",
+"ysym": "JCI"
+},
+{
+"gics": "Consumer Staples",
+"id": "KVUE",
+"market": "US",
+"name": "Kenvue",
+"nameKo": null,
+"source": "sp500",
+"ysym": "KVUE"
+},
+{
+"gics": "Consumer Staples",
+"id": "KDP",
+"market": "US",
+"name": "Keurig Dr Pepper",
+"nameKo": null,
+"source": "sp500",
+"ysym": "KDP"
+},
+{
+"gics": "Information Technology",
+"id": "KEYS",
+"market": "US",
+"name": "Keysight Technologies",
+"nameKo": null,
+"source": "sp500",
+"ysym": "KEYS"
+},
+{
+"gics": "Consumer Staples",
+"id": "KMB",
+"market": "US",
+"name": "Kimberly-Clark",
+"nameKo": null,
+"source": "sp500",
+"ysym": "KMB"
+},
+{
+"gics": "Energy",
+"id": "KMI",
+"market": "US",
+"name": "Kinder Morgan",
+"nameKo": null,
+"source": "sp500",
+"ysym": "KMI"
+},
+{
+"gics": "Information Technology",
+"id": "KLAC",
+"market": "US",
+"name": "KLA Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "KLAC"
+},
+{
+"gics": "Consumer Staples",
+"id": "KHC",
+"market": "US",
+"name": "Kraft Heinz",
+"nameKo": null,
+"source": "sp500",
+"ysym": "KHC"
+},
+{
+"gics": "Consumer Staples",
+"id": "KR",
+"market": "US",
+"name": "Kroger",
+"nameKo": null,
+"source": "sp500",
+"ysym": "KR"
+},
+{
+"gics": "Industrials",
+"id": "LHX",
+"market": "US",
+"name": "L3Harris",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LHX"
+},
+{
+"gics": "Health Care",
+"id": "LH",
+"market": "US",
+"name": "Labcorp",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LH"
+},
+{
+"gics": "Information Technology",
+"id": "LRCX",
+"market": "US",
+"name": "Lam Research",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LRCX"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "LVS",
+"market": "US",
+"name": "Las Vegas Sands",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LVS"
+},
+{
+"gics": "Industrials",
+"id": "LDOS",
+"market": "US",
+"name": "Leidos",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LDOS"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "LEN",
+"market": "US",
+"name": "Lennar",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LEN"
+},
+{
+"gics": "Industrials",
+"id": "LII",
+"market": "US",
+"name": "Lennox International",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LII"
+},
+{
+"gics": "Health Care",
+"id": "LLY",
+"market": "US",
+"name": "Lilly (Eli)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LLY"
+},
+{
+"gics": "Materials",
+"id": "LIN",
+"market": "US",
+"name": "Linde plc",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LIN"
+},
+{
+"gics": "Communication Services",
+"id": "LYV",
+"market": "US",
+"name": "Live Nation Entertainment",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LYV"
+},
+{
+"gics": "Industrials",
+"id": "LMT",
+"market": "US",
+"name": "Lockheed Martin",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LMT"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "LOW",
+"market": "US",
+"name": "Lowe's",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LOW"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "LULU",
+"market": "US",
+"name": "Lululemon Athletica",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LULU"
+},
+{
+"gics": "Information Technology",
+"id": "LITE",
+"market": "US",
+"name": "Lumentum",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LITE"
+},
+{
+"gics": "Materials",
+"id": "LYB",
+"market": "US",
+"name": "LyondellBasell",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LYB"
+},
+{
+"gics": "Energy",
+"id": "MPC",
+"market": "US",
+"name": "Marathon Petroleum",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MPC"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "MAR",
+"market": "US",
+"name": "Marriott International",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MAR"
+},
+{
+"gics": "Materials",
+"id": "MLM",
+"market": "US",
+"name": "Martin Marietta Materials",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MLM"
+},
+{
+"gics": "Information Technology",
+"id": "MRVL",
+"market": "US",
+"name": "Marvell Technology",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MRVL"
+},
+{
+"gics": "Industrials",
+"id": "MAS",
+"market": "US",
+"name": "Masco",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MAS"
+},
+{
+"gics": "Consumer Staples",
+"id": "MKC",
+"market": "US",
+"name": "McCormick & Company",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MKC"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "MCD",
+"market": "US",
+"name": "McDonald's",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MCD"
+},
+{
+"gics": "Health Care",
+"id": "MCK",
+"market": "US",
+"name": "McKesson",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MCK"
+},
+{
+"gics": "Health Care",
+"id": "MDT",
+"market": "US",
+"name": "Medtronic",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MDT"
+},
+{
+"gics": "Health Care",
+"id": "MRK",
+"market": "US",
+"name": "Merck & Co.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MRK"
+},
+{
+"gics": "Communication Services",
+"id": "META",
+"market": "US",
+"name": "Meta Platforms",
+"nameKo": null,
+"source": "sp500",
+"ysym": "META"
+},
+{
+"gics": "Health Care",
+"id": "MTD",
+"market": "US",
+"name": "Mettler Toledo",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MTD"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "MGM",
+"market": "US",
+"name": "MGM Resorts",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MGM"
+},
+{
+"gics": "Information Technology",
+"id": "MCHP",
+"market": "US",
+"name": "Microchip Technology",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MCHP"
+},
+{
+"gics": "Information Technology",
+"id": "MU",
+"market": "US",
+"name": "Micron Technology",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MU"
+},
+{
+"gics": "Information Technology",
+"id": "MSFT",
+"market": "US",
+"name": "Microsoft",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MSFT"
+},
+{
+"gics": "Health Care",
+"id": "MRNA",
+"market": "US",
+"name": "Moderna",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MRNA"
+},
+{
+"gics": "Consumer Staples",
+"id": "MDLZ",
+"market": "US",
+"name": "Mondelez International",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MDLZ"
+},
+{
+"gics": "Information Technology",
+"id": "MPWR",
+"market": "US",
+"name": "Monolithic Power Systems",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MPWR"
+},
+{
+"gics": "Consumer Staples",
+"id": "MNST",
+"market": "US",
+"name": "Monster Beverage",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MNST"
+},
+{
+"gics": "Materials",
+"id": "MOS",
+"market": "US",
+"name": "Mosaic Company (The)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MOS"
+},
+{
+"gics": "Information Technology",
+"id": "MSI",
+"market": "US",
+"name": "Motorola Solutions",
+"nameKo": null,
+"source": "sp500",
+"ysym": "MSI"
+},
+{
+"gics": "Information Technology",
+"id": "NTAP",
+"market": "US",
+"name": "NetApp",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NTAP"
+},
+{
+"gics": "Communication Services",
+"id": "NFLX",
+"market": "US",
+"name": "Netflix",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NFLX"
+},
+{
+"gics": "Materials",
+"id": "NEM",
+"market": "US",
+"name": "Newmont",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NEM"
+},
+{
+"gics": "Communication Services",
+"id": "NWSA",
+"market": "US",
+"name": "News Corp (Class A)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NWSA"
+},
+{
+"gics": "Communication Services",
+"id": "NWS",
+"market": "US",
+"name": "News Corp (Class B)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NWS"
+},
+{
+"gics": "Utilities",
+"id": "NEE",
+"market": "US",
+"name": "NextEra Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NEE"
+},
+{
+"gics": "Utilities",
+"id": "NI",
+"market": "US",
+"name": "NiSource",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NI"
+},
+{
+"gics": "Industrials",
+"id": "NDSN",
+"market": "US",
+"name": "Nordson Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NDSN"
+},
+{
+"gics": "Industrials",
+"id": "NSC",
+"market": "US",
+"name": "Norfolk Southern",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NSC"
+},
+{
+"gics": "Industrials",
+"id": "NOC",
+"market": "US",
+"name": "Northrop Grumman",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NOC"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "NCLH",
+"market": "US",
+"name": "Norwegian Cruise Line Holdings",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NCLH"
+},
+{
+"gics": "Utilities",
+"id": "NRG",
+"market": "US",
+"name": "NRG Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NRG"
+},
+{
+"gics": "Materials",
+"id": "NUE",
+"market": "US",
+"name": "Nucor",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NUE"
+},
+{
+"gics": "Information Technology",
+"id": "NVDA",
+"market": "US",
+"name": "Nvidia",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NVDA"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "NVR",
+"market": "US",
+"name": "NVR, Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NVR"
+},
+{
+"gics": "Information Technology",
+"id": "NXPI",
+"market": "US",
+"name": "NXP Semiconductors",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NXPI"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "ORLY",
+"market": "US",
+"name": "O'Reilly Automotive",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ORLY"
+},
+{
+"gics": "Energy",
+"id": "OXY",
+"market": "US",
+"name": "Occidental Petroleum",
+"nameKo": null,
+"source": "sp500",
+"ysym": "OXY"
+},
+{
+"gics": "Industrials",
+"id": "ODFL",
+"market": "US",
+"name": "Old Dominion",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ODFL"
+},
+{
+"gics": "Communication Services",
+"id": "OMC",
+"market": "US",
+"name": "Omnicom Group",
+"nameKo": null,
+"source": "sp500",
+"ysym": "OMC"
+},
+{
+"gics": "Information Technology",
+"id": "ON",
+"market": "US",
+"name": "ON Semiconductor",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ON"
+},
+{
+"gics": "Energy",
+"id": "OKE",
+"market": "US",
+"name": "Oneok",
+"nameKo": null,
+"source": "sp500",
+"ysym": "OKE"
+},
+{
+"gics": "Information Technology",
+"id": "ORCL",
+"market": "US",
+"name": "Oracle Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ORCL"
+},
+{
+"gics": "Industrials",
+"id": "OTIS",
+"market": "US",
+"name": "Otis Worldwide",
+"nameKo": null,
+"source": "sp500",
+"ysym": "OTIS"
+},
+{
+"gics": "Industrials",
+"id": "PCAR",
+"market": "US",
+"name": "Paccar",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PCAR"
+},
+{
+"gics": "Materials",
+"id": "PKG",
+"market": "US",
+"name": "Packaging Corporation of America",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PKG"
+},
+{
+"gics": "Information Technology",
+"id": "PLTR",
+"market": "US",
+"name": "Palantir Technologies",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PLTR"
+},
+{
+"gics": "Information Technology",
+"id": "PANW",
+"market": "US",
+"name": "Palo Alto Networks",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PANW"
+},
+{
+"gics": "Industrials",
+"id": "PH",
+"market": "US",
+"name": "Parker Hannifin",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PH"
+},
+{
+"gics": "Industrials",
+"id": "PAYX",
+"market": "US",
+"name": "Paychex",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PAYX"
+},
+{
+"gics": "Industrials",
+"id": "PNR",
+"market": "US",
+"name": "Pentair",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PNR"
+},
+{
+"gics": "Consumer Staples",
+"id": "PEP",
+"market": "US",
+"name": "PepsiCo",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PEP"
+},
+{
+"gics": "Health Care",
+"id": "PFE",
+"market": "US",
+"name": "Pfizer",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PFE"
+},
+{
+"gics": "Utilities",
+"id": "PCG",
+"market": "US",
+"name": "PG&E Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PCG"
+},
+{
+"gics": "Consumer Staples",
+"id": "PM",
+"market": "US",
+"name": "Philip Morris International",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PM"
+},
+{
+"gics": "Energy",
+"id": "PSX",
+"market": "US",
+"name": "Phillips 66",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PSX"
+},
+{
+"gics": "Utilities",
+"id": "PNW",
+"market": "US",
+"name": "Pinnacle West Capital",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PNW"
+},
+{
+"gics": "Materials",
+"id": "PPG",
+"market": "US",
+"name": "PPG Industries",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PPG"
+},
+{
+"gics": "Utilities",
+"id": "PPL",
+"market": "US",
+"name": "PPL Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PPL"
+},
+{
+"gics": "Consumer Staples",
+"id": "PG",
+"market": "US",
+"name": "Procter & Gamble",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PG"
+},
+{
+"gics": "Information Technology",
+"id": "PTC",
+"market": "US",
+"name": "PTC Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PTC"
+},
+{
+"gics": "Utilities",
+"id": "PEG",
+"market": "US",
+"name": "Public Service Enterprise Group",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PEG"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "PHM",
+"market": "US",
+"name": "PulteGroup",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PHM"
+},
+{
+"gics": "Information Technology",
+"id": "Q",
+"market": "US",
+"name": "Qnity Electronics",
+"nameKo": null,
+"source": "sp500",
+"ysym": "Q"
+},
+{
+"gics": "Information Technology",
+"id": "QCOM",
+"market": "US",
+"name": "Qualcomm",
+"nameKo": null,
+"source": "sp500",
+"ysym": "QCOM"
+},
+{
+"gics": "Industrials",
+"id": "PWR",
+"market": "US",
+"name": "Quanta Services",
+"nameKo": null,
+"source": "sp500",
+"ysym": "PWR"
+},
+{
+"gics": "Health Care",
+"id": "DGX",
+"market": "US",
+"name": "Quest Diagnostics",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DGX"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "RL",
+"market": "US",
+"name": "Ralph Lauren Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "RL"
+},
+{
+"gics": "Communication Services",
+"id": "RDDT",
+"market": "US",
+"name": "Reddit",
+"nameKo": null,
+"source": "sp500",
+"ysym": "RDDT"
+},
+{
+"gics": "Health Care",
+"id": "REGN",
+"market": "US",
+"name": "Regeneron Pharmaceuticals",
+"nameKo": null,
+"source": "sp500",
+"ysym": "REGN"
+},
+{
+"gics": "Industrials",
+"id": "RSG",
+"market": "US",
+"name": "Republic Services",
+"nameKo": null,
+"source": "sp500",
+"ysym": "RSG"
+},
+{
+"gics": "Health Care",
+"id": "RMD",
+"market": "US",
+"name": "ResMed",
+"nameKo": null,
+"source": "sp500",
+"ysym": "RMD"
+},
+{
+"gics": "Health Care",
+"id": "RVTY",
+"market": "US",
+"name": "Revvity",
+"nameKo": null,
+"source": "sp500",
+"ysym": "RVTY"
+},
+{
+"gics": "Industrials",
+"id": "ROK",
+"market": "US",
+"name": "Rockwell Automation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ROK"
+},
+{
+"gics": "Industrials",
+"id": "ROL",
+"market": "US",
+"name": "Rollins, Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ROL"
+},
+{
+"gics": "Information Technology",
+"id": "ROP",
+"market": "US",
+"name": "Roper Technologies",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ROP"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "ROST",
+"market": "US",
+"name": "Ross Stores",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ROST"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "RCL",
+"market": "US",
+"name": "Royal Caribbean Group",
+"nameKo": null,
+"source": "sp500",
+"ysym": "RCL"
+},
+{
+"gics": "Industrials",
+"id": "RTX",
+"market": "US",
+"name": "RTX Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "RTX"
+},
+{
+"gics": "Information Technology",
+"id": "CRM",
+"market": "US",
+"name": "Salesforce",
+"nameKo": null,
+"source": "sp500",
+"ysym": "CRM"
+},
+{
+"gics": "Information Technology",
+"id": "SNDK",
+"market": "US",
+"name": "Sandisk",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SNDK"
+},
+{
+"gics": "Energy",
+"id": "SLB",
+"market": "US",
+"name": "Schlumberger",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SLB"
+},
+{
+"gics": "Information Technology",
+"id": "STX",
+"market": "US",
+"name": "Seagate Technology",
+"nameKo": null,
+"source": "sp500",
+"ysym": "STX"
+},
+{
+"gics": "Utilities",
+"id": "SRE",
+"market": "US",
+"name": "Sempra",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SRE"
+},
+{
+"gics": "Information Technology",
+"id": "NOW",
+"market": "US",
+"name": "ServiceNow",
+"nameKo": null,
+"source": "sp500",
+"ysym": "NOW"
+},
+{
+"gics": "Materials",
+"id": "SHW",
+"market": "US",
+"name": "Sherwin-Williams",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SHW"
+},
+{
+"gics": "Communication Services",
+"id": "SKYD",
+"market": "US",
+"name": "Skydance",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SKYD"
+},
+{
+"gics": "Information Technology",
+"id": "SWKS",
+"market": "US",
+"name": "Skyworks Solutions",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SWKS"
+},
+{
+"gics": "Consumer Staples",
+"id": "SJM",
+"market": "US",
+"name": "J.M. Smucker Company (The)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SJM"
+},
+{
+"gics": "Materials",
+"id": "SW",
+"market": "US",
+"name": "Smurfit Westrock",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SW"
+},
+{
+"gics": "Industrials",
+"id": "SNA",
+"market": "US",
+"name": "Snap-on",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SNA"
+},
+{
+"gics": "Health Care",
+"id": "SOLV",
+"market": "US",
+"name": "Solventum",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SOLV"
+},
+{
+"gics": "Utilities",
+"id": "SO",
+"market": "US",
+"name": "Southern Company",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SO"
+},
+{
+"gics": "Industrials",
+"id": "LUV",
+"market": "US",
+"name": "Southwest Airlines",
+"nameKo": null,
+"source": "sp500",
+"ysym": "LUV"
+},
+{
+"gics": "Industrials",
+"id": "SWK",
+"market": "US",
+"name": "Stanley Black & Decker",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SWK"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "SBUX",
+"market": "US",
+"name": "Starbucks",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SBUX"
+},
+{
+"gics": "Materials",
+"id": "STLD",
+"market": "US",
+"name": "Steel Dynamics",
+"nameKo": null,
+"source": "sp500",
+"ysym": "STLD"
+},
+{
+"gics": "Health Care",
+"id": "STE",
+"market": "US",
+"name": "Steris",
+"nameKo": null,
+"source": "sp500",
+"ysym": "STE"
+},
+{
+"gics": "Health Care",
+"id": "SYK",
+"market": "US",
+"name": "Stryker Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SYK"
+},
+{
+"gics": "Information Technology",
+"id": "SMCI",
+"market": "US",
+"name": "Supermicro",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SMCI"
+},
+{
+"gics": "Information Technology",
+"id": "SNPS",
+"market": "US",
+"name": "Synopsys",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SNPS"
+},
+{
+"gics": "Consumer Staples",
+"id": "SYY",
+"market": "US",
+"name": "Sysco",
+"nameKo": null,
+"source": "sp500",
+"ysym": "SYY"
+},
+{
+"gics": "Communication Services",
+"id": "TMUS",
+"market": "US",
+"name": "T-Mobile US",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TMUS"
+},
+{
+"gics": "Communication Services",
+"id": "TTWO",
+"market": "US",
+"name": "Take-Two Interactive",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TTWO"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "TPR",
+"market": "US",
+"name": "Tapestry, Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TPR"
+},
+{
+"gics": "Energy",
+"id": "TRGP",
+"market": "US",
+"name": "Targa Resources",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TRGP"
+},
+{
+"gics": "Consumer Staples",
+"id": "TGT",
+"market": "US",
+"name": "Target Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TGT"
+},
+{
+"gics": "Information Technology",
+"id": "TEL",
+"market": "US",
+"name": "TE Connectivity",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TEL"
+},
+{
+"gics": "Information Technology",
+"id": "TDY",
+"market": "US",
+"name": "Teledyne Technologies",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TDY"
+},
+{
+"gics": "Information Technology",
+"id": "TER",
+"market": "US",
+"name": "Teradyne",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TER"
+},
+{
+"gics": "Information Technology",
+"id": "TXN",
+"market": "US",
+"name": "Texas Instruments",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TXN"
+},
+{
+"gics": "Energy",
+"id": "TPL",
+"market": "US",
+"name": "Texas Pacific Land Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TPL"
+},
+{
+"gics": "Industrials",
+"id": "TXT",
+"market": "US",
+"name": "Textron",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TXT"
+},
+{
+"gics": "Health Care",
+"id": "TMO",
+"market": "US",
+"name": "Thermo Fisher Scientific",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TMO"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "TJX",
+"market": "US",
+"name": "TJX Companies",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TJX"
+},
+{
+"gics": "Communication Services",
+"id": "TKO",
+"market": "US",
+"name": "TKO Group Holdings",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TKO"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "TSCO",
+"market": "US",
+"name": "Tractor Supply",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TSCO"
+},
+{
+"gics": "Industrials",
+"id": "TT",
+"market": "US",
+"name": "Trane Technologies",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TT"
+},
+{
+"gics": "Industrials",
+"id": "TDG",
+"market": "US",
+"name": "TransDigm Group",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TDG"
+},
+{
+"gics": "Information Technology",
+"id": "TRMB",
+"market": "US",
+"name": "Trimble Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TRMB"
+},
+{
+"gics": "Information Technology",
+"id": "TWLO",
+"market": "US",
+"name": "Twilio",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TWLO"
+},
+{
+"gics": "Information Technology",
+"id": "TYL",
+"market": "US",
+"name": "Tyler Technologies",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TYL"
+},
+{
+"gics": "Consumer Staples",
+"id": "TSN",
+"market": "US",
+"name": "Tyson Foods",
+"nameKo": null,
+"source": "sp500",
+"ysym": "TSN"
+},
+{
+"gics": "Industrials",
+"id": "UBER",
+"market": "US",
+"name": "Uber",
+"nameKo": null,
+"source": "sp500",
+"ysym": "UBER"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "ULTA",
+"market": "US",
+"name": "Ulta Beauty",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ULTA"
+},
+{
+"gics": "Industrials",
+"id": "UNP",
+"market": "US",
+"name": "Union Pacific Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "UNP"
+},
+{
+"gics": "Industrials",
+"id": "UAL",
+"market": "US",
+"name": "United Airlines Holdings",
+"nameKo": null,
+"source": "sp500",
+"ysym": "UAL"
+},
+{
+"gics": "Industrials",
+"id": "UPS",
+"market": "US",
+"name": "United Parcel Service",
+"nameKo": null,
+"source": "sp500",
+"ysym": "UPS"
+},
+{
+"gics": "Industrials",
+"id": "URI",
+"market": "US",
+"name": "United Rentals",
+"nameKo": null,
+"source": "sp500",
+"ysym": "URI"
+},
+{
+"gics": "Health Care",
+"id": "UNH",
+"market": "US",
+"name": "UnitedHealth Group",
+"nameKo": null,
+"source": "sp500",
+"ysym": "UNH"
+},
+{
+"gics": "Health Care",
+"id": "UHS",
+"market": "US",
+"name": "Universal Health Services",
+"nameKo": null,
+"source": "sp500",
+"ysym": "UHS"
+},
+{
+"gics": "Energy",
+"id": "VLO",
+"market": "US",
+"name": "Valero Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "VLO"
+},
+{
+"gics": "Health Care",
+"id": "VEEV",
+"market": "US",
+"name": "Veeva Systems",
+"nameKo": null,
+"source": "sp500",
+"ysym": "VEEV"
+},
+{
+"gics": "Industrials",
+"id": "VLTO",
+"market": "US",
+"name": "Veralto",
+"nameKo": null,
+"source": "sp500",
+"ysym": "VLTO"
+},
+{
+"gics": "Information Technology",
+"id": "VRSN",
+"market": "US",
+"name": "Verisign",
+"nameKo": null,
+"source": "sp500",
+"ysym": "VRSN"
+},
+{
+"gics": "Industrials",
+"id": "VRSK",
+"market": "US",
+"name": "Verisk Analytics",
+"nameKo": null,
+"source": "sp500",
+"ysym": "VRSK"
+},
+{
+"gics": "Communication Services",
+"id": "VZ",
+"market": "US",
+"name": "Verizon",
+"nameKo": null,
+"source": "sp500",
+"ysym": "VZ"
+},
+{
+"gics": "Health Care",
+"id": "VRTX",
+"market": "US",
+"name": "Vertex Pharmaceuticals",
+"nameKo": null,
+"source": "sp500",
+"ysym": "VRTX"
+},
+{
+"gics": "Industrials",
+"id": "VRT",
+"market": "US",
+"name": "Vertiv",
+"nameKo": null,
+"source": "sp500",
+"ysym": "VRT"
+},
+{
+"gics": "Health Care",
+"id": "VTRS",
+"market": "US",
+"name": "Viatris",
+"nameKo": null,
+"source": "sp500",
+"ysym": "VTRS"
+},
+{
+"gics": "Utilities",
+"id": "VST",
+"market": "US",
+"name": "Vistra Corp.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "VST"
+},
+{
+"gics": "Materials",
+"id": "VMC",
+"market": "US",
+"name": "Vulcan Materials Company",
+"nameKo": null,
+"source": "sp500",
+"ysym": "VMC"
+},
+{
+"gics": "Consumer Staples",
+"id": "VYLR",
+"market": "US",
+"name": "Vylor",
+"nameKo": null,
+"source": "sp500",
+"ysym": "VYLR"
+},
+{
+"gics": "Industrials",
+"id": "GWW",
+"market": "US",
+"name": "W. W. Grainger",
+"nameKo": null,
+"source": "sp500",
+"ysym": "GWW"
+},
+{
+"gics": "Industrials",
+"id": "WAB",
+"market": "US",
+"name": "Wabtec",
+"nameKo": null,
+"source": "sp500",
+"ysym": "WAB"
+},
+{
+"gics": "Consumer Staples",
+"id": "WMT",
+"market": "US",
+"name": "Walmart",
+"nameKo": null,
+"source": "sp500",
+"ysym": "WMT"
+},
+{
+"gics": "Communication Services",
+"id": "DIS",
+"market": "US",
+"name": "Walt Disney Company (The)",
+"nameKo": null,
+"source": "sp500",
+"ysym": "DIS"
+},
+{
+"gics": "Industrials",
+"id": "WM",
+"market": "US",
+"name": "Waste Management",
+"nameKo": null,
+"source": "sp500",
+"ysym": "WM"
+},
+{
+"gics": "Health Care",
+"id": "WAT",
+"market": "US",
+"name": "Waters Corporation",
+"nameKo": null,
+"source": "sp500",
+"ysym": "WAT"
+},
+{
+"gics": "Utilities",
+"id": "WEC",
+"market": "US",
+"name": "WEC Energy Group",
+"nameKo": null,
+"source": "sp500",
+"ysym": "WEC"
+},
+{
+"gics": "Health Care",
+"id": "WST",
+"market": "US",
+"name": "West Pharmaceutical Services",
+"nameKo": null,
+"source": "sp500",
+"ysym": "WST"
+},
+{
+"gics": "Information Technology",
+"id": "WDC",
+"market": "US",
+"name": "Western Digital",
+"nameKo": null,
+"source": "sp500",
+"ysym": "WDC"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "WSM",
+"market": "US",
+"name": "Williams-Sonoma, Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "WSM"
+},
+{
+"gics": "Energy",
+"id": "WMB",
+"market": "US",
+"name": "Williams Companies",
+"nameKo": null,
+"source": "sp500",
+"ysym": "WMB"
+},
+{
+"gics": "Information Technology",
+"id": "WDAY",
+"market": "US",
+"name": "Workday, Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "WDAY"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "WYNN",
+"market": "US",
+"name": "Wynn Resorts",
+"nameKo": null,
+"source": "sp500",
+"ysym": "WYNN"
+},
+{
+"gics": "Utilities",
+"id": "XEL",
+"market": "US",
+"name": "Xcel Energy",
+"nameKo": null,
+"source": "sp500",
+"ysym": "XEL"
+},
+{
+"gics": "Industrials",
+"id": "XYL",
+"market": "US",
+"name": "Xylem Inc.",
+"nameKo": null,
+"source": "sp500",
+"ysym": "XYL"
+},
+{
+"gics": "Consumer Discretionary",
+"id": "YUM",
+"market": "US",
+"name": "Yum! Brands",
+"nameKo": null,
+"source": "sp500",
+"ysym": "YUM"
+},
+{
+"gics": "Information Technology",
+"id": "ZBRA",
+"market": "US",
+"name": "Zebra Technologies",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ZBRA"
+},
+{
+"gics": "Health Care",
+"id": "ZBH",
+"market": "US",
+"name": "Zimmer Biomet",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ZBH"
+},
+{
+"gics": "Health Care",
+"id": "ZTS",
+"market": "US",
+"name": "Zoetis",
+"nameKo": null,
+"source": "sp500",
+"ysym": "ZTS"
+},
+{
+"gics": null,
+"id": "005930",
+"market": "KR",
+"name": "Samsung Electronics Co., Ltd.",
+"nameKo": "삼성전자",
+"source": "yahoo_kr",
+"ysym": "005930.KS"
+},
+{
+"gics": null,
+"id": "000660",
+"market": "KR",
+"name": "SK hynix Inc.",
+"nameKo": "SK하이닉스",
+"source": "yahoo_kr",
+"ysym": "000660.KS"
+},
+{
+"gics": null,
+"id": "402340",
+"market": "KR",
+"name": "SK Square Co., Ltd.",
+"nameKo": "SK스퀘어",
+"source": "yahoo_kr",
+"ysym": "402340.KS"
+},
+{
+"gics": null,
+"id": "009150",
+"market": "KR",
+"name": "Samsung Electro-Mechanics Co., Ltd.",
+"nameKo": "삼성전기",
+"source": "yahoo_kr",
+"ysym": "009150.KS"
+},
+{
+"gics": null,
+"id": "373220",
+"market": "KR",
+"name": "LG Energy Solution, Ltd.",
+"nameKo": "LG에너지솔루션",
+"source": "yahoo_kr",
+"ysym": "373220.KS"
+},
+{
+"gics": null,
+"id": "005380",
+"market": "KR",
+"name": "Hyundai Motor Company",
+"nameKo": "현대차",
+"source": "yahoo_kr",
+"ysym": "005380.KS"
+},
+{
+"gics": null,
+"id": "207940",
+"market": "KR",
+"name": "Samsung Biologics Co.,Ltd.",
+"nameKo": "삼성바이오로직스",
+"source": "yahoo_kr",
+"ysym": "207940.KS"
+},
+{
+"gics": null,
+"id": "105560",
+"market": "KR",
+"name": "KB Financial Group Inc.",
+"nameKo": "KB금융",
+"source": "yahoo_kr",
+"ysym": "105560.KS"
+},
+{
+"gics": null,
+"id": "028260",
+"market": "KR",
+"name": "Samsung C&T Corporation",
+"nameKo": "삼성물산",
+"source": "yahoo_kr",
+"ysym": "028260.KS"
+},
+{
+"gics": null,
+"id": "032830",
+"market": "KR",
+"name": "Samsung Life Insurance Co., Ltd.",
+"nameKo": "삼성생명",
+"source": "yahoo_kr",
+"ysym": "032830.KS"
+},
+{
+"gics": null,
+"id": "068270",
+"market": "KR",
+"name": "Celltrion, Inc.",
+"nameKo": "셀트리온",
+"source": "yahoo_kr",
+"ysym": "068270.KS"
+},
+{
+"gics": null,
+"id": "006400",
+"market": "KR",
+"name": "Samsung SDI Co., Ltd.",
+"nameKo": "삼성SDI",
+"source": "yahoo_kr",
+"ysym": "006400.KS"
+},
+{
+"gics": null,
+"id": "055550",
+"market": "KR",
+"name": "Shinhan Financial Group Co., Ltd.",
+"nameKo": "신한지주",
+"source": "yahoo_kr",
+"ysym": "055550.KS"
+},
+{
+"gics": null,
+"id": "000270",
+"market": "KR",
+"name": "Kia Corporation",
+"nameKo": "기아",
+"source": "yahoo_kr",
+"ysym": "000270.KS"
+},
+{
+"gics": null,
+"id": "034020",
+"market": "KR",
+"name": "Doosan Enerbility Co., Ltd.",
+"nameKo": "두산에너빌리티",
+"source": "yahoo_kr",
+"ysym": "034020.KS"
+},
+{
+"gics": null,
+"id": "086790",
+"market": "KR",
+"name": "Hana Financial Group Inc.",
+"nameKo": "하나금융지주",
+"source": "yahoo_kr",
+"ysym": "086790.KS"
+},
+{
+"gics": null,
+"id": "012330",
+"market": "KR",
+"name": "Hyundai Mobis Co.,Ltd",
+"nameKo": "현대모비스",
+"source": "yahoo_kr",
+"ysym": "012330.KS"
+},
+{
+"gics": null,
+"id": "329180",
+"market": "KR",
+"name": "HD Hyundai Heavy Industries Co., Ltd.",
+"nameKo": "HD현대중공업",
+"source": "yahoo_kr",
+"ysym": "329180.KS"
+},
+{
+"gics": null,
+"id": "000810",
+"market": "KR",
+"name": "Samsung Fire & Marine Insurance Co., Ltd.",
+"nameKo": "삼성화재해상보험",
+"source": "yahoo_kr",
+"ysym": "000810.KS"
+},
+{
+"gics": null,
+"id": "034730",
+"market": "KR",
+"name": "SK Inc.",
+"nameKo": "SK",
+"source": "yahoo_kr",
+"ysym": "034730.KS"
+},
+{
+"gics": null,
+"id": "066570",
+"market": "KR",
+"name": "LG Electronics Inc.",
+"nameKo": "LG전자",
+"source": "yahoo_kr",
+"ysym": "066570.KS"
+},
+{
+"gics": null,
+"id": "035420",
+"market": "KR",
+"name": "NAVER Corporation",
+"nameKo": "NAVER",
+"source": "yahoo_kr",
+"ysym": "035420.KS"
+},
+{
+"gics": null,
+"id": "316140",
+"market": "KR",
+"name": "Woori Financial Group Inc.",
+"nameKo": "우리금융지주",
+"source": "yahoo_kr",
+"ysym": "316140.KS"
+},
+{
+"gics": null,
+"id": "010120",
+"market": "KR",
+"name": "LS ELECTRIC Co., Ltd.",
+"nameKo": "엘에스일렉트릭",
+"source": "yahoo_kr",
+"ysym": "010120.KS"
+},
+{
+"gics": null,
+"id": "096770",
+"market": "KR",
+"name": "SK Innovation Co., Ltd.",
+"nameKo": "SK이노베이션",
+"source": "yahoo_kr",
+"ysym": "096770.KS"
+},
+{
+"gics": null,
+"id": "011200",
+"market": "KR",
+"name": "HMM Co.,Ltd",
+"nameKo": "HMM",
+"source": "yahoo_kr",
+"ysym": "011200.KS"
+},
+{
+"gics": null,
+"id": "138040",
+"market": "KR",
+"name": "Meritz Financial Group Inc.",
+"nameKo": "메리츠금융지주",
+"source": "yahoo_kr",
+"ysym": "138040.KS"
+},
+{
+"gics": null,
+"id": "005490",
+"market": "KR",
+"name": "POSCO Holdings Inc.",
+"nameKo": "POSCO홀딩스",
+"source": "yahoo_kr",
+"ysym": "005490.KS"
+},
+{
+"gics": null,
+"id": "033780",
+"market": "KR",
+"name": "KT&G Corporation",
+"nameKo": "KT&G",
+"source": "yahoo_kr",
+"ysym": "033780.KS"
+},
+{
+"gics": null,
+"id": "051910",
+"market": "KR",
+"name": "LG Chem, Ltd.",
+"nameKo": "LG화학",
+"source": "yahoo_kr",
+"ysym": "051910.KS"
+},
+{
+"gics": null,
+"id": "010130",
+"market": "KR",
+"name": "Korea Zinc Company, Ltd.",
+"nameKo": "고려아연",
+"source": "yahoo_kr",
+"ysym": "010130.KS"
+},
+{
+"gics": null,
+"id": "042700",
+"market": "KR",
+"name": "HANMI Semiconductor Co., Ltd.",
+"nameKo": "한미반도체",
+"source": "yahoo_kr",
+"ysym": "042700.KS"
+},
+{
+"gics": null,
+"id": "298040",
+"market": "KR",
+"name": "Hyosung Heavy Industries Corporation",
+"nameKo": "효성중공업",
+"source": "yahoo_kr",
+"ysym": "298040.KS"
+},
+{
+"gics": null,
+"id": "009540",
+"market": "KR",
+"name": "HD Korea Shipbuilding & Offshore Engineering Co., Ltd.",
+"nameKo": "HD한국조선해양",
+"source": "yahoo_kr",
+"ysym": "009540.KS"
+},
+{
+"gics": null,
+"id": "017670",
+"market": "KR",
+"name": "SK Telecom Co., Ltd.",
+"nameKo": "SK텔레콤",
+"source": "yahoo_kr",
+"ysym": "017670.KS"
+},
+{
+"gics": null,
+"id": "018260",
+"market": "KR",
+"name": "Samsung SDS Co., Ltd.",
+"nameKo": "삼성에스디에스",
+"source": "yahoo_kr",
+"ysym": "018260.KS"
+},
+{
+"gics": null,
+"id": "024110",
+"market": "KR",
+"name": "Industrial Bank of Korea",
+"nameKo": "기업은행",
+"source": "yahoo_kr",
+"ysym": "024110.KS"
+},
+{
+"gics": null,
+"id": "042660",
+"market": "KR",
+"name": "Hanwha Ocean Co., Ltd.",
+"nameKo": "한화오션",
+"source": "yahoo_kr",
+"ysym": "042660.KS"
+},
+{
+"gics": null,
+"id": "267260",
+"market": "KR",
+"name": "HD Hyundai Electric Co., Ltd.",
+"nameKo": "HD현대일렉트릭",
+"source": "yahoo_kr",
+"ysym": "267260.KS"
+},
+{
+"gics": null,
+"id": "000150",
+"market": "KR",
+"name": "Doosan Corporation",
+"nameKo": "두산",
+"source": "yahoo_kr",
+"ysym": "000150.KS"
+},
+{
+"gics": null,
+"id": "003550",
+"market": "KR",
+"name": "LG Corp.",
+"nameKo": "LG",
+"source": "yahoo_kr",
+"ysym": "003550.KS"
+},
+{
+"gics": null,
+"id": "006800",
+"market": "KR",
+"name": "Mirae Asset Securities Co., Ltd.",
+"nameKo": "미래에셋증권",
+"source": "yahoo_kr",
+"ysym": "006800.KS"
+},
+{
+"gics": null,
+"id": "003670",
+"market": "KR",
+"name": "Posco Future M Co., Ltd.",
+"nameKo": "포스코퓨처엠",
+"source": "yahoo_kr",
+"ysym": "003670.KS"
+},
+{
+"gics": null,
+"id": "010950",
+"market": "KR",
+"name": "S-Oil Corporation",
+"nameKo": "S-Oil",
+"source": "yahoo_kr",
+"ysym": "010950.KS"
+},
+{
+"gics": null,
+"id": "086280",
+"market": "KR",
+"name": "Hyundai Glovis Co., Ltd.",
+"nameKo": "현대글로비스",
+"source": "yahoo_kr",
+"ysym": "086280.KS"
+},
+{
+"gics": null,
+"id": "010140",
+"market": "KR",
+"name": "Samsung Heavy Industries Co., Ltd.",
+"nameKo": "삼성중공업",
+"source": "yahoo_kr",
+"ysym": "010140.KS"
+},
+{
+"gics": null,
+"id": "035720",
+"market": "KR",
+"name": "Kakao Corp.",
+"nameKo": "카카오",
+"source": "yahoo_kr",
+"ysym": "035720.KS"
+},
+{
+"gics": null,
+"id": "028050",
+"market": "KR",
+"name": "Samsung E&A Co., Ltd.",
+"nameKo": "삼성E&A",
+"source": "yahoo_kr",
+"ysym": "028050.KS"
+},
+{
+"gics": null,
+"id": "272210",
+"market": "KR",
+"name": "Hanwha Systems Co., Ltd.",
+"nameKo": "한화시스템",
+"source": "yahoo_kr",
+"ysym": "272210.KS"
+},
+{
+"gics": null,
+"id": "005830",
+"market": "KR",
+"name": "DB Insurance Co., Ltd.",
+"nameKo": "DB손해보험",
+"source": "yahoo_kr",
+"ysym": "005830.KS"
+},
+{
+"gics": null,
+"id": "030200",
+"market": "KR",
+"name": "KT Corporation",
+"nameKo": "KT",
+"source": "yahoo_kr",
+"ysym": "030200.KS"
+},
+{
+"gics": null,
+"id": "267250",
+"market": "KR",
+"name": "HD Hyundai Co., Ltd.",
+"nameKo": "HD현대",
+"source": "yahoo_kr",
+"ysym": "267250.KS"
+},
+{
+"gics": null,
+"id": "003490",
+"market": "KR",
+"name": "Korean Airlines Co.,Ltd.",
+"nameKo": "대한항공",
+"source": "yahoo_kr",
+"ysym": "003490.KS"
+},
+{
+"gics": null,
+"id": "278470",
+"market": "KR",
+"name": "APR Co., Ltd.",
+"nameKo": "에이피알",
+"source": "yahoo_kr",
+"ysym": "278470.KS"
+},
+{
+"gics": null,
+"id": "323410",
+"market": "KR",
+"name": "KakaoBank Corp.",
+"nameKo": "카카오뱅크",
+"source": "yahoo_kr",
+"ysym": "323410.KS"
+},
+{
+"gics": null,
+"id": "000720",
+"market": "KR",
+"name": "Hyundai Engineering & Construction Co.,Ltd.",
+"nameKo": "현대건설",
+"source": "yahoo_kr",
+"ysym": "000720.KS"
+},
+{
+"gics": null,
+"id": "005940",
+"market": "KR",
+"name": "NH Investment & Securities Co., Ltd.",
+"nameKo": "NH투자증권",
+"source": "yahoo_kr",
+"ysym": "005940.KS"
+},
+{
+"gics": null,
+"id": "090430",
+"market": "KR",
+"name": "Amorepacific Corporation",
+"nameKo": "아모레퍼시픽",
+"source": "yahoo_kr",
+"ysym": "090430.KS"
+},
+{
+"gics": null,
+"id": "071050",
+"market": "KR",
+"name": "Korea Investment Holdings Co., Ltd.",
+"nameKo": "한국금융지주",
+"source": "yahoo_kr",
+"ysym": "071050.KS"
+},
+{
+"gics": null,
+"id": "003230",
+"market": "KR",
+"name": "Samyang Foods Co., Ltd.",
+"nameKo": "삼양식품",
+"source": "yahoo_kr",
+"ysym": "003230.KS"
+},
+{
+"gics": null,
+"id": "064350",
+"market": "KR",
+"name": "Hyundai Rotem Company",
+"nameKo": "현대로템",
+"source": "yahoo_kr",
+"ysym": "064350.KS"
+},
+{
+"gics": null,
+"id": "180640",
+"market": "KR",
+"name": "Hanjin Kal",
+"nameKo": "한진칼",
+"source": "yahoo_kr",
+"ysym": "180640.KS"
+},
+{
+"gics": null,
+"id": "047050",
+"market": "KR",
+"name": "Posco International Corporation",
+"nameKo": "포스코인터내셔널",
+"source": "yahoo_kr",
+"ysym": "047050.KS"
+},
+{
+"gics": null,
+"id": "307950",
+"market": "KR",
+"name": "Hyundai Autoever Corporation",
+"nameKo": "현대오토에버",
+"source": "yahoo_kr",
+"ysym": "307950.KS"
+},
+{
+"gics": null,
+"id": "259960",
+"market": "KR",
+"name": "KRAFTON, Inc.",
+"nameKo": "크래프톤",
+"source": "yahoo_kr",
+"ysym": "259960.KS"
+},
+{
+"gics": null,
+"id": "011070",
+"market": "KR",
+"name": "LG Innotek Co., Ltd.",
+"nameKo": "LG이노텍",
+"source": "yahoo_kr",
+"ysym": "011070.KS"
+},
+{
+"gics": null,
+"id": "0126Z0",
+"market": "KR",
+"name": "Samsung Epis Holdings Co., Ltd.",
+"nameKo": "삼성에피스홀딩스",
+"source": "yahoo_kr",
+"ysym": "0126Z0.KS"
+},
+{
+"gics": null,
+"id": "078930",
+"market": "KR",
+"name": "GS Holdings Corp.",
+"nameKo": "GS",
+"source": "yahoo_kr",
+"ysym": "078930.KS"
+},
+{
+"gics": null,
+"id": "443060",
+"market": "KR",
+"name": "HD Hyundai Marine Solution CO.,LTD.",
+"nameKo": "HD현대마린솔루션",
+"source": "yahoo_kr",
+"ysym": "443060.KS"
+},
+{
+"gics": null,
+"id": "021240",
+"market": "KR",
+"name": "COWAY Co., Ltd.",
+"nameKo": "코웨이",
+"source": "yahoo_kr",
+"ysym": "021240.KS"
+},
+{
+"gics": null,
+"id": "016360",
+"market": "KR",
+"name": "Samsung Securities Co.,Ltd.",
+"nameKo": "삼성증권",
+"source": "yahoo_kr",
+"ysym": "016360.KS"
+},
+{
+"gics": null,
+"id": "064400",
+"market": "KR",
+"name": "LG CNS Co., Ltd.",
+"nameKo": "LG씨엔에스",
+"source": "yahoo_kr",
+"ysym": "064400.KS"
+},
+{
+"gics": null,
+"id": "161390",
+"market": "KR",
+"name": "Hankook Tire & Technology Co., Ltd.",
+"nameKo": "한국타이어앤테크놀로지",
+"source": "yahoo_kr",
+"ysym": "161390.KS"
+},
+{
+"gics": null,
+"id": "352820",
+"market": "KR",
+"name": "HYBE Co., Ltd.",
+"nameKo": "하이브",
+"source": "yahoo_kr",
+"ysym": "352820.KS"
+},
+{
+"gics": null,
+"id": "007660",
+"market": "KR",
+"name": "ISU Petasys Co., Ltd.",
+"nameKo": "이수페타시스",
+"source": "yahoo_kr",
+"ysym": "007660.KS"
+},
+{
+"gics": null,
+"id": "353200",
+"market": "KR",
+"name": "DAEDUCK ELECTRONICS Co., Ltd.",
+"nameKo": "대덕전자",
+"source": "yahoo_kr",
+"ysym": "353200.KS"
+},
+{
+"gics": null,
+"id": "326030",
+"market": "KR",
+"name": "SK Biopharmaceuticals Co., Ltd.",
+"nameKo": "에스케이바이오팜",
+"source": "yahoo_kr",
+"ysym": "326030.KS"
+},
+{
+"gics": null,
+"id": "000880",
+"market": "KR",
+"name": "Hanwha Corporation",
+"nameKo": "한화",
+"source": "yahoo_kr",
+"ysym": "000880.KS"
+},
+{
+"gics": null,
+"id": "039490",
+"market": "KR",
+"name": "Kiwoom Securities Co., Ltd.",
+"nameKo": "키움증권",
+"source": "yahoo_kr",
+"ysym": "039490.KS"
+},
+{
+"gics": null,
+"id": "000100",
+"market": "KR",
+"name": "Yuhan Corporation",
+"nameKo": "유한양행",
+"source": "yahoo_kr",
+"ysym": "000100.KS"
+},
+{
+"gics": null,
+"id": "006260",
+"market": "KR",
+"name": "LS Corp.",
+"nameKo": "LS",
+"source": "yahoo_kr",
+"ysym": "006260.KS"
+},
+{
+"gics": null,
+"id": "128940",
+"market": "KR",
+"name": "Hanmi Pharm. Co., Ltd.",
+"nameKo": "한미약품",
+"source": "yahoo_kr",
+"ysym": "128940.KS"
+},
+{
+"gics": null,
+"id": "009830",
+"market": "KR",
+"name": "Hanwha Solutions Corporation",
+"nameKo": "한화솔루션",
+"source": "yahoo_kr",
+"ysym": "009830.KS"
+},
+{
+"gics": null,
+"id": "175330",
+"market": "KR",
+"name": "JB Financial Group Co., Ltd.",
+"nameKo": "JB금융지주",
+"source": "yahoo_kr",
+"ysym": "175330.KS"
+},
+{
+"gics": null,
+"id": "241560",
+"market": "KR",
+"name": "Doosan Bobcat Inc.",
+"nameKo": "두산밥캣",
+"source": "yahoo_kr",
+"ysym": "241560.KS"
+},
+{
+"gics": null,
+"id": "377300",
+"market": "KR",
+"name": "Kakao Pay Corp.",
+"nameKo": "카카오페이",
+"source": "yahoo_kr",
+"ysym": "377300.KS"
+},
+{
+"gics": null,
+"id": "271560",
+"market": "KR",
+"name": "ORION Corp.",
+"nameKo": "오리온",
+"source": "yahoo_kr",
+"ysym": "271560.KS"
+},
+{
+"gics": null,
+"id": "029780",
+"market": "KR",
+"name": "Samsung Card Co., Ltd.",
+"nameKo": "삼성카드",
+"source": "yahoo_kr",
+"ysym": "029780.KS"
+},
+{
+"gics": null,
+"id": "047040",
+"market": "KR",
+"name": "Daewoo Engineering & Construction Co., Ltd.",
+"nameKo": "대우건설",
+"source": "yahoo_kr",
+"ysym": "047040.KS"
+},
+{
+"gics": null,
+"id": "062040",
+"market": "KR",
+"name": "Sanil Electric Co., Ltd.",
+"nameKo": "산일전기",
+"source": "yahoo_kr",
+"ysym": "062040.KS"
+},
+{
+"gics": null,
+"id": "051900",
+"market": "KR",
+"name": "LG H&H Co., Ltd.",
+"nameKo": "LG생활건강",
+"source": "yahoo_kr",
+"ysym": "051900.KS"
+},
+{
+"gics": null,
+"id": "138930",
+"market": "KR",
+"name": "BNK Financial Group Inc.",
+"nameKo": "BNK금융지주",
+"source": "yahoo_kr",
+"ysym": "138930.KS"
+},
+{
+"gics": null,
+"id": "000990",
+"market": "KR",
+"name": "DB HiTek CO., LTD.",
+"nameKo": "DB하이텍",
+"source": "yahoo_kr",
+"ysym": "000990.KS"
+},
+{
+"gics": null,
+"id": "036570",
+"market": "KR",
+"name": "NC Corporation",
+"nameKo": "NC",
+"source": "yahoo_kr",
+"ysym": "036570.KS"
+},
+{
+"gics": null,
+"id": "001440",
+"market": "KR",
+"name": "Taihan Cable & Solution Co., Ltd.",
+"nameKo": "대한전선",
+"source": "yahoo_kr",
+"ysym": "001440.KS"
+},
+{
+"gics": null,
+"id": "000500",
+"market": "KR",
+"name": "GAON CABLE Co., Ltd.",
+"nameKo": "가온전선",
+"source": "yahoo_kr",
+"ysym": "000500.KS"
+},
+{
+"gics": null,
+"id": "001040",
+"market": "KR",
+"name": "CJ Corporation",
+"nameKo": "CJ",
+"source": "yahoo_kr",
+"ysym": "001040.KS"
+},
+{
+"gics": null,
+"id": "267270",
+"market": "KR",
+"name": "HD Construction Equipment Co., Ltd.",
+"nameKo": "HD건설기계",
+"source": "yahoo_kr",
+"ysym": "267270.KS"
+},
+{
+"gics": null,
+"id": "034220",
+"market": "KR",
+"name": "LG Display Co., Ltd.",
+"nameKo": "LG디스플레이",
+"source": "yahoo_kr",
+"ysym": "034220.KS"
+},
+{
+"gics": null,
+"id": "018880",
+"market": "KR",
+"name": "Hanon Systems",
+"nameKo": "한온시스템",
+"source": "yahoo_kr",
+"ysym": "018880.KS"
+},
+{
+"gics": null,
+"id": "454910",
+"market": "KR",
+"name": "Doosan Robotics Inc.",
+"nameKo": "두산로보틱스",
+"source": "yahoo_kr",
+"ysym": "454910.KS"
+},
+{
+"gics": null,
+"id": "001450",
+"market": "KR",
+"name": "Hyundai Marine & Fire Insurance Co., Ltd.",
+"nameKo": "현대해상",
+"source": "yahoo_kr",
+"ysym": "001450.KS"
+},
+{
+"gics": null,
+"id": "011790",
+"market": "KR",
+"name": "SKC Co., Ltd.",
+"nameKo": "SKC",
+"source": "yahoo_kr",
+"ysym": "011790.KS"
+},
+{
+"gics": null,
+"id": "004020",
+"market": "KR",
+"name": "Hyundai Steel Company",
+"nameKo": "현대제철",
+"source": "yahoo_kr",
+"ysym": "004020.KS"
+},
+{
+"gics": null,
+"id": "088980",
+"market": "KR",
+"name": "Macquarie Korea Infrastructure Fund",
+"nameKo": "맥쿼리인프라",
+"source": "yahoo_kr",
+"ysym": "088980.KS"
+},
+{
+"gics": null,
+"id": "012750",
+"market": "KR",
+"name": "S-1 Corporation",
+"nameKo": "에스원",
+"source": "yahoo_kr",
+"ysym": "012750.KS"
+},
+{
+"gics": null,
+"id": "052690",
+"market": "KR",
+"name": "KEPCO Engineering & Construction Company, Inc.",
+"nameKo": "한전기술",
+"source": "yahoo_kr",
+"ysym": "052690.KS"
+},
+{
+"gics": null,
+"id": "036460",
+"market": "KR",
+"name": "Korea Gas Corporation",
+"nameKo": "한국가스공사",
+"source": "yahoo_kr",
+"ysym": "036460.KS"
+},
+{
+"gics": null,
+"id": "066970",
+"market": "KR",
+"name": "L&F Co., Ltd.",
+"nameKo": "엘앤에프",
+"source": "yahoo_kr",
+"ysym": "066970.KS"
+},
+{
+"gics": null,
+"id": "028670",
+"market": "KR",
+"name": "Pan Ocean Co., Ltd.",
+"nameKo": "팬오션",
+"source": "yahoo_kr",
+"ysym": "028670.KS"
+},
+{
+"gics": null,
+"id": "088350",
+"market": "KR",
+"name": "Hanwha Life Insurance Co., Ltd.",
+"nameKo": "한화생명",
+"source": "yahoo_kr",
+"ysym": "088350.KS"
+},
+{
+"gics": null,
+"id": "031210",
+"market": "KR",
+"name": "Seoul Guarantee Insurance Company",
+"nameKo": "서울보증보험",
+"source": "yahoo_kr",
+"ysym": "031210.KS"
+},
+{
+"gics": null,
+"id": "111770",
+"market": "KR",
+"name": "Youngone Corporation",
+"nameKo": "영원무역",
+"source": "yahoo_kr",
+"ysym": "111770.KS"
+},
+{
+"gics": null,
+"id": "008930",
+"market": "KR",
+"name": "Hanmi Science Co., Ltd.",
+"nameKo": "한미사이언스",
+"source": "yahoo_kr",
+"ysym": "008930.KS"
+},
+{
+"gics": null,
+"id": "002380",
+"market": "KR",
+"name": "KCC Corporation",
+"nameKo": "케이씨씨",
+"source": "yahoo_kr",
+"ysym": "002380.KS"
+},
+{
+"gics": null,
+"id": "022100",
+"market": "KR",
+"name": "Posco Dx Company Ltd.",
+"nameKo": "포스코DX",
+"source": "yahoo_kr",
+"ysym": "022100.KS"
+},
+{
+"gics": null,
+"id": "026960",
+"market": "KR",
+"name": "Dong Suh Companies Inc.",
+"nameKo": "동서",
+"source": "yahoo_kr",
+"ysym": "026960.KS"
+},
+{
+"gics": null,
+"id": "192820",
+"market": "KR",
+"name": "Cosmax, Inc.",
+"nameKo": "코스맥스",
+"source": "yahoo_kr",
+"ysym": "192820.KS"
+},
+{
+"gics": null,
+"id": "097950",
+"market": "KR",
+"name": "CJ Cheiljedang Corporation",
+"nameKo": "CJ제일제당",
+"source": "yahoo_kr",
+"ysym": "097950.KS"
+},
+{
+"gics": null,
+"id": "035250",
+"market": "KR",
+"name": "Kangwon Land, Inc.",
+"nameKo": "강원랜드",
+"source": "yahoo_kr",
+"ysym": "035250.KS"
+},
+{
+"gics": null,
+"id": "011780",
+"market": "KR",
+"name": "Kumho Petro Chemical Co.,Ltd",
+"nameKo": "금호석유화학",
+"source": "yahoo_kr",
+"ysym": "011780.KS"
+},
+{
+"gics": null,
+"id": "251270",
+"market": "KR",
+"name": "Netmarble Corporation",
+"nameKo": "넷마블",
+"source": "yahoo_kr",
+"ysym": "251270.KS"
+},
+{
+"gics": null,
+"id": "161890",
+"market": "KR",
+"name": "Kolmar Korea Co., Ltd.",
+"nameKo": "한국콜마",
+"source": "yahoo_kr",
+"ysym": "161890.KS"
+},
+{
+"gics": null,
+"id": "489790",
+"market": "KR",
+"name": "Hanwha Vision CO.,LTD",
+"nameKo": "한화비전",
+"source": "yahoo_kr",
+"ysym": "489790.KS"
+},
+{
+"gics": null,
+"id": "302440",
+"market": "KR",
+"name": "SK bioscience Co.,Ltd.",
+"nameKo": "SK바이오사이언스",
+"source": "yahoo_kr",
+"ysym": "302440.KS"
+},
+{
+"gics": null,
+"id": "085620",
+"market": "KR",
+"name": "MIRAE ASSET Life Insurance Co., Ltd.",
+"nameKo": "미래에셋생명",
+"source": "yahoo_kr",
+"ysym": "085620.KS"
+},
+{
+"gics": null,
+"id": "103590",
+"market": "KR",
+"name": "Iljin Electric Co.,Ltd",
+"nameKo": "일진전기",
+"source": "yahoo_kr",
+"ysym": "103590.KS"
+},
+{
+"gics": null,
+"id": "139130",
+"market": "KR",
+"name": "iM Financial Group Co., Ltd.",
+"nameKo": "iM금융지주",
+"source": "yahoo_kr",
+"ysym": "139130.KS"
+},
+{
+"gics": null,
+"id": "003690",
+"market": "KR",
+"name": "Korean Reinsurance Company",
+"nameKo": "코리안리",
+"source": "yahoo_kr",
+"ysym": "003690.KS"
+},
+{
+"gics": null,
+"id": "082740",
+"market": "KR",
+"name": "Hanwha Engine Co., Ltd.",
+"nameKo": "한화엔진",
+"source": "yahoo_kr",
+"ysym": "082740.KS"
+},
+{
+"gics": null,
+"id": "017800",
+"market": "KR",
+"name": "Hyundai Elevator Co., Ltd",
+"nameKo": "현대엘리베이터",
+"source": "yahoo_kr",
+"ysym": "017800.KS"
+},
+{
+"gics": null,
+"id": "383220",
+"market": "KR",
+"name": "F&F Co., Ltd",
+"nameKo": "F&F",
+"source": "yahoo_kr",
+"ysym": "383220.KS"
+},
+{
+"gics": null,
+"id": "004370",
+"market": "KR",
+"name": "Nongshim Co., Ltd.",
+"nameKo": "농심",
+"source": "yahoo_kr",
+"ysym": "004370.KS"
+},
+{
+"gics": null,
+"id": "023530",
+"market": "KR",
+"name": "Lotte Shopping Co., Ltd.",
+"nameKo": "롯데쇼핑",
+"source": "yahoo_kr",
+"ysym": "023530.KS"
+},
+{
+"gics": null,
+"id": "018670",
+"market": "KR",
+"name": "SK Gas Co., Ltd.",
+"nameKo": "SK가스",
+"source": "yahoo_kr",
+"ysym": "018670.KS"
+},
+{
+"gics": null,
+"id": "282330",
+"market": "KR",
+"name": "BGF Retail Co., Ltd.",
+"nameKo": "BGF리테일",
+"source": "yahoo_kr",
+"ysym": "282330.KS"
+},
+{
+"gics": null,
+"id": "336260",
+"market": "KR",
+"name": "Doosan Fuel Cell Co., Ltd.",
+"nameKo": "두산퓨얼셀",
+"source": "yahoo_kr",
+"ysym": "336260.KS"
+},
+{
+"gics": null,
+"id": "002790",
+"market": "KR",
+"name": "AMOREPACIFIC Holdings Corp.",
+"nameKo": "아모레퍼시픽홀딩스",
+"source": "yahoo_kr",
+"ysym": "002790.KS"
+},
+{
+"gics": null,
+"id": "014680",
+"market": "KR",
+"name": "Hansol Chemical Co., Ltd.",
+"nameKo": "한솔케미칼",
+"source": "yahoo_kr",
+"ysym": "014680.KS"
+},
+{
+"gics": null,
+"id": "005850",
+"market": "KR",
+"name": "SL Corporation",
+"nameKo": "에스엘",
+"source": "yahoo_kr",
+"ysym": "005850.KS"
+},
+{
+"gics": null,
+"id": "457190",
+"market": "KR",
+"name": "ISU Specialty Chemical Co., Ltd.",
+"nameKo": "이수스페셜티케미컬",
+"source": "yahoo_kr",
+"ysym": "457190.KS"
+},
+{
+"gics": null,
+"id": "006360",
+"market": "KR",
+"name": "GS Engineering & Construction Corporation",
+"nameKo": "GS건설",
+"source": "yahoo_kr",
+"ysym": "006360.KS"
+},
+{
+"gics": null,
+"id": "000240",
+"market": "KR",
+"name": "Hankook & Company Co., Ltd.",
+"nameKo": "한국앤컴퍼니",
+"source": "yahoo_kr",
+"ysym": "000240.KS"
+},
+{
+"gics": null,
+"id": "020150",
+"market": "KR",
+"name": "Lotte Energy Materials Corporation",
+"nameKo": "롯데에너지머티리얼즈",
+"source": "yahoo_kr",
+"ysym": "020150.KS"
+},
+{
+"gics": null,
+"id": "004170",
+"market": "KR",
+"name": "SHINSEGAE Inc.",
+"nameKo": "신세계",
+"source": "yahoo_kr",
+"ysym": "004170.KS"
+},
+{
+"gics": null,
+"id": "375500",
+"market": "KR",
+"name": "DL E&C Co.,Ltd.",
+"nameKo": "DL이앤씨",
+"source": "yahoo_kr",
+"ysym": "375500.KS"
+},
+{
+"gics": null,
+"id": "007340",
+"market": "KR",
+"name": "DN Automotive Corporation",
+"nameKo": "DN오토모티브",
+"source": "yahoo_kr",
+"ysym": "007340.KS"
+},
+{
+"gics": null,
+"id": "279570",
+"market": "KR",
+"name": "K Bank Co.,Ltd.",
+"nameKo": "케이뱅크",
+"source": "yahoo_kr",
+"ysym": "279570.KS"
+},
+{
+"gics": null,
+"id": "450080",
+"market": "KR",
+"name": "Ecopro Materials Co., Ltd.",
+"nameKo": "에코프로머티",
+"source": "yahoo_kr",
+"ysym": "450080.KS"
+},
+{
+"gics": null,
+"id": "004800",
+"market": "KR",
+"name": "Hyosung Corporation",
+"nameKo": "효성",
+"source": "yahoo_kr",
+"ysym": "004800.KS"
+},
+{
+"gics": null,
+"id": "196170",
+"market": "KR",
+"name": "ALTEOGEN Inc.",
+"nameKo": "알테오젠",
+"source": "yahoo_kr",
+"ysym": "196170.KQ"
+},
+{
+"gics": null,
+"id": "247540",
+"market": "KR",
+"name": "EcoPro BM Co., Ltd.",
+"nameKo": "에코프로비엠",
+"source": "yahoo_kr",
+"ysym": "247540.KQ"
+},
+{
+"gics": null,
+"id": "086520",
+"market": "KR",
+"name": "Ecopro Co., Ltd.",
+"nameKo": "에코프로",
+"source": "yahoo_kr",
+"ysym": "086520.KQ"
+},
+{
+"gics": null,
+"id": "036930",
+"market": "KR",
+"name": "JUSUNG ENGINEERING Co.,Ltd.",
+"nameKo": "주성엔지니어링",
+"source": "yahoo_kr",
+"ysym": "036930.KQ"
+},
+{
+"gics": null,
+"id": "277810",
+"market": "KR",
+"name": "Rainbow Robotics Co.,Ltd.",
+"nameKo": "레인보우로보틱스",
+"source": "yahoo_kr",
+"ysym": "277810.KQ"
+},
+{
+"gics": null,
+"id": "028300",
+"market": "KR",
+"name": "HLB Co., Ltd.",
+"nameKo": "HLB",
+"source": "yahoo_kr",
+"ysym": "028300.KQ"
+},
+{
+"gics": null,
+"id": "039030",
+"market": "KR",
+"name": "EO Technics Co., Ltd.",
+"nameKo": "이오테크닉스",
+"source": "yahoo_kr",
+"ysym": "039030.KQ"
+},
+{
+"gics": null,
+"id": "240810",
+"market": "KR",
+"name": "Wonik IPS Co., Ltd.",
+"nameKo": "원익IPS",
+"source": "yahoo_kr",
+"ysym": "240810.KQ"
+},
+{
+"gics": null,
+"id": "000250",
+"market": "KR",
+"name": "Sam Chun Dang Pharm. Co., Ltd",
+"nameKo": "삼천당제약",
+"source": "yahoo_kr",
+"ysym": "000250.KQ"
+},
+{
+"gics": null,
+"id": "058470",
+"market": "KR",
+"name": "LEENO Industrial Inc.",
+"nameKo": "리노공업",
+"source": "yahoo_kr",
+"ysym": "058470.KQ"
+},
+{
+"gics": null,
+"id": "222800",
+"market": "KR",
+"name": "SIMMTECH Co., Ltd.",
+"nameKo": "심텍",
+"source": "yahoo_kr",
+"ysym": "222800.KQ"
+},
+{
+"gics": null,
+"id": "031980",
+"market": "KR",
+"name": "PSK HOLDINGS Inc.",
+"nameKo": "피에스케이홀딩스",
+"source": "yahoo_kr",
+"ysym": "031980.KQ"
+},
+{
+"gics": null,
+"id": "108490",
+"market": "KR",
+"name": "ROBOTIS Co., Ltd.",
+"nameKo": "로보티즈",
+"source": "yahoo_kr",
+"ysym": "108490.KQ"
+},
+{
+"gics": null,
+"id": "403870",
+"market": "KR",
+"name": "HPSP Co., Ltd.",
+"nameKo": "HPSP",
+"source": "yahoo_kr",
+"ysym": "403870.KQ"
+},
+{
+"gics": null,
+"id": "319660",
+"market": "KR",
+"name": "PSK Inc.",
+"nameKo": "피에스케이",
+"source": "yahoo_kr",
+"ysym": "319660.KQ"
+},
+{
+"gics": null,
+"id": "095340",
+"market": "KR",
+"name": "ISC Co., Ltd.",
+"nameKo": "ISC",
+"source": "yahoo_kr",
+"ysym": "095340.KQ"
+},
+{
+"gics": null,
+"id": "131290",
+"market": "KR",
+"name": "TSE Co., Ltd",
+"nameKo": "티에스이",
+"source": "yahoo_kr",
+"ysym": "131290.KQ"
+},
+{
+"gics": null,
+"id": "084370",
+"market": "KR",
+"name": "Eugene Technology Co.,Ltd.",
+"nameKo": "유진테크",
+"source": "yahoo_kr",
+"ysym": "084370.KQ"
+},
+{
+"gics": null,
+"id": "440110",
+"market": "KR",
+"name": "FADU Inc.",
+"nameKo": "파두",
+"source": "yahoo_kr",
+"ysym": "440110.KQ"
+},
+{
+"gics": null,
+"id": "357780",
+"market": "KR",
+"name": "Soulbrain Co., Ltd.",
+"nameKo": "솔브레인",
+"source": "yahoo_kr",
+"ysym": "357780.KQ"
+},
+{
+"gics": null,
+"id": "141080",
+"market": "KR",
+"name": "LigaChem Biosciences Inc.",
+"nameKo": "리가켐바이오",
+"source": "yahoo_kr",
+"ysym": "141080.KQ"
+},
+{
+"gics": null,
+"id": "030530",
+"market": "KR",
+"name": "Wonik Holdings Co.,Ltd.",
+"nameKo": "원익홀딩스",
+"source": "yahoo_kr",
+"ysym": "030530.KQ"
+},
+{
+"gics": null,
+"id": "067310",
+"market": "KR",
+"name": "HANA Micron Inc.",
+"nameKo": "하나마이크론",
+"source": "yahoo_kr",
+"ysym": "067310.KQ"
+},
+{
+"gics": null,
+"id": "214450",
+"market": "KR",
+"name": "PharmaResearch Co., Ltd.",
+"nameKo": "파마리서치",
+"source": "yahoo_kr",
+"ysym": "214450.KQ"
+},
+{
+"gics": null,
+"id": "298380",
+"market": "KR",
+"name": "ABL Bio Inc.",
+"nameKo": "에이비엘바이오",
+"source": "yahoo_kr",
+"ysym": "298380.KQ"
+},
+{
+"gics": null,
+"id": "064760",
+"market": "KR",
+"name": "Tokai Carbon Korea Co., Ltd.",
+"nameKo": "티씨케이",
+"source": "yahoo_kr",
+"ysym": "064760.KQ"
+},
+{
+"gics": null,
+"id": "080220",
+"market": "KR",
+"name": "Jeju Semiconductor Corp.",
+"nameKo": "제주반도체",
+"source": "yahoo_kr",
+"ysym": "080220.KQ"
+},
+{
+"gics": null,
+"id": "010170",
+"market": "KR",
+"name": "Taihan Fiber Optics Co., Ltd",
+"nameKo": "대한광통신",
+"source": "yahoo_kr",
+"ysym": "010170.KQ"
+},
+{
+"gics": null,
+"id": "087010",
+"market": "KR",
+"name": "Peptron, Inc.",
+"nameKo": "펩트론",
+"source": "yahoo_kr",
+"ysym": "087010.KQ"
+},
+{
+"gics": null,
+"id": "226950",
+"market": "KR",
+"name": "OliX Pharmaceuticals, Inc",
+"nameKo": "올릭스",
+"source": "yahoo_kr",
+"ysym": "226950.KQ"
+}
+]
